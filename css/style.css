@@ -1,0 +1,720 @@
+@font-face {
+	font-family: 'latoblack';
+	src: url('../fonts/lato-black-webfont.eot');
+	src: url('../fonts/lato-black-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/lato-black-webfont.woff2') format('woff2'),
+		 url('../fonts/lato-black-webfont.woff') format('woff'),
+		 url('../fonts/lato-black-webfont.ttf') format('truetype'),
+		 url('../fonts/lato-black-webfont.svg#latoblack') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'latolight';
+	src: url('../fonts/lato-light-webfont.eot');
+	src: url('../fonts/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/lato-light-webfont.woff2') format('woff2'),
+		 url('../fonts/lato-light-webfont.woff') format('woff'),
+		 url('../fonts/lato-light-webfont.ttf') format('truetype'),
+		 url('../fonts/lato-light-webfont.svg#latolight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'latothin';
+	src: url('../fonts/lato-thin-webfont.eot');
+	src: url('../fonts/lato-thin-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/lato-thin-webfont.woff2') format('woff2'),
+		 url('../fonts/lato-thin-webfont.woff') format('woff'),
+		 url('../fonts/lato-thin-webfont.ttf') format('truetype'),
+		 url('../fonts/lato-thin-webfont.svg#latothin') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+* {
+  vertical-align: top;
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+}
+
+:focus {outline: none;}
+input[type="submit"]::-moz-focus-inner {border: none;}
+html, body{height:100%; width:100%; margin:0; padding:0;}
+
+body {
+	font-family: 'latolight', Arial, sans-serif;
+	font-size: 30px;
+	color: #000;
+	line-height: 1;
+	background: #fff;
+}
+
+img {
+	border: none;
+	max-width: 100%;
+	height: auto;
+}
+
+p {
+
+}
+
+a {
+	font-family: inherit;
+	font-size: inherit;
+	color: #ec0080;
+	font-weight: inherit;
+	font-style: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1, h2, h3, h4 {
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+ul, ul li {
+
+}
+
+ul {
+
+}
+
+ul li {
+
+}
+
+ul li a{
+
+}
+
+ol {
+
+}
+
+ol li {
+
+}
+
+input[type="text"],
+input[type="password"] {
+
+}
+
+address {
+	font-style: normal;
+}
+
+#all {
+	height: 100%;
+	width: 100%;
+}
+
+.btnRegistration {
+	display: flex;
+	justify-content: center;
+}
+
+.btnRegistration a {
+	display: block;
+	width: 214px;
+	height: 48px;
+	line-height: 48px;
+	border: 1px solid #ec0080;
+	cursor: pointer;
+	font-family: 'latolight';
+	font-size: 30px;
+	color: #ec0080;
+	text-align: center;
+	text-decoration: none;
+}
+
+/*****************/
+/******HEADER*****/
+/*****************/
+
+#header {
+	padding: 200px 0 644px 0;
+	background: url('../img/header.svg') no-repeat center bottom;
+	background-size: auto 700px;
+}
+
+.rowHeader {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 99999;
+	width: 100%;
+	background: #fff;
+	display: flex;
+}
+
+.rowHeader:after {
+	content: '';
+	position: absolute;
+	left: 130px;
+	right: 140px;
+	bottom: 0;
+	height: 1px;
+	background: #cccccc;
+}
+
+.btnBuyTicket {
+	margin-left: auto;
+}
+
+.mainMenu {
+
+}
+
+.mainMenu ul {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.mainMenu ul li {
+	padding: 0;
+	margin: 0;
+}
+
+.mainMenu ul li a,
+.btnBuyTicket a {
+	display: block;
+	font-family: 'latolight';
+	font-size: 30px;
+	color: #ec0080;
+	text-decoration: none;
+	padding: 0 50px;
+	height: 80px;
+	line-height: 80px;
+	position: relative;
+}
+
+.mainMenu ul li a:after,
+.btnBuyTicket a:after {
+	content: '';
+	width: 5px;
+	height: 5px;
+	background: #000;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	bottom: -2px;
+	margin-left: -2.5px;
+	z-index: 2;
+}
+
+.mainMenu ul li.act a:after {
+	width: 9px;
+	height: 9px;
+	background: #ec0080;
+	bottom: -4px;
+	margin-left: -4.5px;
+}
+
+.logo {
+	padding: 0 0 56px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.logo a {
+	font-family: 'latoblack';
+	font-size: 100px;
+	color: #000;
+	text-decoration: none;
+	letter-spacing: -1.7px;
+	line-height: 80px;
+}
+
+.locationHeader,
+.siteDescription {
+	width: 900px;
+	margin: 0 auto;
+	font-family: 'latolight';
+	font-size: 30px;
+	color: #999999;
+	line-height: 36px;
+	text-align: center;
+	position: relative;
+}
+
+.locationHeader {
+	padding-bottom: 25px;
+	margin-bottom: 13px;
+}
+
+.locationHeader:after {
+	content: '';
+	display: block;
+	height: 1px;
+	background: #cccccc;
+	position: absolute;
+	left: 6%;
+	right: 6%;
+	bottom: 0;
+}
+
+.locationHeader:before {
+	content: '';
+	display: block;
+	width: 5px;
+	height: 5px;
+	background: #000;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	bottom: -2px;
+	margin-left: -2.5px;
+	z-index: 2;
+}
+
+#header .btnRegistration {
+	margin-top: 30px;
+}
+
+/*****************/
+/*****CONTENT*****/
+/*****************/
+
+#main {
+
+}
+
+#content {
+
+}
+
+.section {
+
+}
+
+.titleSection {
+	font-family: 'latothin';
+	font-size: 80px;
+	color: #000;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.contentSection {
+	max-width: 1560px;
+	margin: 0 auto;
+}
+
+
+/*****SPEAKERS*****/
+.sectionSpeakers {
+
+}
+
+.sectionSpeakers .contentSection {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 20px 0 40px 0;
+}
+
+.sectionSpeakers .contentSection .item {
+	margin: 0 35px 70px 35px;
+	text-align: center;
+	width: 450px;
+}
+
+.sectionSpeakers .contentSection .item .photo {
+	width: 100%;
+	margin-bottom: 35px;
+}
+
+.sectionSpeakers .contentSection .item .photo img {
+	width: 100%;
+	display: block;
+}
+
+.sectionSpeakers .contentSection .item .name {
+	font-family: 'latoblack';
+	font-size: 30px;
+	color: #000;
+	line-height: 1;
+	margin-bottom: 9px;
+}
+
+.sectionSpeakers .contentSection .item .about {
+	
+}
+
+.sectionSpeakers .contentSection .item .theme {
+	font-family: 'latolight';
+	font-size: 30px;
+	color: #000;
+	line-height: 1;
+}
+
+
+/*****AGENDA*****/
+.sectionAgenda {
+
+}
+
+.sectionAgenda .contentSection {
+	font-family: 'latothin';
+	font-size: 30px;
+	color: #000;
+	line-height: 1;
+	margin-bottom: 120px;
+}
+
+.sectionAgenda .contentSection .item {
+	display: flex;
+	padding: 5px 0;
+	justify-content: center;
+}
+
+.sectionAgenda .contentSection .item .time {
+	flex: 0 0 100px;
+	padding-left: 50px;
+}
+
+.sectionAgenda .contentSection .item .title {
+	flex: 0 0 320px;
+	padding-right: 20px;
+}
+
+.sectionAgenda .contentSection .item .description {
+	flex: 0 0 470px;
+	padding-left: 20px;
+}
+
+
+/*****PARTNERS*****/
+.sectionPartners {
+
+}
+
+.sectionPartners .contentSection {
+	padding: 0 0 50px 0;
+}
+
+.sectionPartners .contentSection .categoryPartners {
+	
+}
+
+.sectionPartners .contentSection .categoryPartners .titleCategoryPartners {
+	font-family: 'latoblack';
+	font-size: 30px;
+	color: #000;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a {
+	display: block;
+	margin: 0 35px 35px 35px;
+}
+
+
+
+
+/*****LOCATION*****/
+.sectionLocation {
+
+}
+
+.sectionLocation .contentSection {
+	text-align: center;
+	line-height: 1.4;
+	margin-bottom: 90px;
+}
+
+.sectionLocation .contentSection {
+	text-align: center;
+	line-height: 1.4;
+	margin-bottom: 95px;
+}
+
+.sectionLocation .contentSection .btnRegistration {
+	margin-top: 80px;
+}
+
+
+@media screen and (max-width: 1600px) {
+	body {
+		font-size: 22px;
+	}
+	#header {
+		padding: 150px 0 483px 0;
+		background-size: auto 525px;
+	}
+	.rowHeader:after {
+		left: 97px;
+		right: 104px;
+	}
+	.mainMenu ul li a,
+	.btnBuyTicket a {
+		height: 60px;
+		line-height: 60px;
+		padding: 0 37px;
+		font-size: 22px;
+	}
+	.locationHeader,
+	.siteDescription {
+		font-size: 22px;
+		line-height: 26px;
+		width: 660px;
+	}
+	.locationHeader {
+		padding-bottom: 15px;
+	}
+	.logo {
+		padding: 0 0 42px 0;
+	}
+	.logo a {
+		font-size: 75px;
+		letter-spacing: -1.3px;
+		line-height: 60px;
+	}
+
+	.titleSection {
+		font-size: 60px;
+		padding-bottom: 30px;
+	}
+
+	.sectionSpeakers .contentSection {
+		padding: 15px 0 30px 0;
+	}
+	.sectionSpeakers .contentSection .item {
+		margin: 0 25px 50px 25px;
+		width: 336px;
+	}
+	.sectionSpeakers .contentSection .item .photo {
+		margin-bottom: 27px;
+	}
+	.sectionSpeakers .contentSection .item .name {
+		font-size: 22px;
+		margin-bottom: 7px;
+	}
+	.sectionSpeakers .contentSection .item .theme {
+		font-size: 22px;
+	}
+
+
+	.sectionAgenda .contentSection {
+		font-size: 22px;
+		margin-bottom: 90px;
+	}
+	.sectionAgenda .contentSection .item {
+		padding: 4px 0;
+	}
+	.sectionAgenda .contentSection .item .time {
+		flex: 0 0 75px;
+		padding-left: 37px;
+	}
+	.sectionAgenda .contentSection .item .title {
+		flex: 0 0 240px;
+		padding-right: 15px;
+	}
+	.sectionAgenda .contentSection .item .description {
+		flex: 0 0 350px;
+		padding-left: 15px;
+	}
+
+	.sectionPartners .contentSection {
+		padding: 0 0 37px 0;
+	}
+	.sectionPartners .contentSection .categoryPartners .titleCategoryPartners {
+		font-size: 22px;
+		padding-bottom: 22px;
+	}
+	.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a {
+		margin: 0 27px 27px 27px;
+	}
+
+	.sectionLocation .contentSection {
+		margin-bottom: 70px;
+	}
+
+	.sectionLocation .contentSection .btnRegistration {
+		margin-top: 60px;
+	}
+}
+
+@media screen and (max-width: 1279px) {
+	body {
+		font-size: 15px;
+	}
+	#header {
+		padding: 100px 0 300px 0;
+		background-size: auto 320px;
+	}
+	.rowHeader:after {
+		left: 65px;
+		right: 70px;
+	}
+	.mainMenu ul li a,
+	.btnBuyTicket a {
+		height: 40px;
+		line-height: 40px;
+		padding: 0 20px;
+		font-size: 15px;
+	}
+	.locationHeader,
+	.siteDescription {
+		font-size: 15px;
+		line-height: 18px;
+		width: 450px;
+	}
+	.locationHeader {
+		padding-bottom: 15px;
+	}
+	.logo {
+		padding: 0 0 28px 0;
+	}
+	.logo a {
+		font-size: 50px;
+		letter-spacing: -0.8px;
+		line-height: 40px;
+	}
+
+	.titleSection {
+		font-size: 40px;
+		padding-bottom: 20px;
+	}
+
+	.sectionSpeakers .contentSection {
+		padding: 10px 0 20px 0;
+	}
+	.sectionSpeakers .contentSection .item {
+		margin: 0 18px 35px 18px;
+		width: 220px;
+	}
+	.sectionSpeakers .contentSection .item .photo {
+		margin-bottom: 18px;
+	}
+	.sectionSpeakers .contentSection .item .name {
+		font-size: 15px;
+		margin-bottom: 5px;
+	}
+	.sectionSpeakers .contentSection .item .theme {
+		font-size: 15px;
+	}
+
+	.sectionAgenda .contentSection {
+		font-size: 15px;
+		margin-bottom: 60px;
+	}
+	.sectionAgenda .contentSection .item {
+		padding: 3px 0;
+	}
+	.sectionAgenda .contentSection .item .time {
+		flex: 0 0 50px;
+		padding-left: 25px;
+	}
+	.sectionAgenda .contentSection .item .title {
+		flex: 0 0 160px;
+		padding-right: 10px;
+	}
+	.sectionAgenda .contentSection .item .description {
+		flex: 0 0 235px;
+		padding-left: 10px;
+	}
+
+	.sectionPartners .contentSection {
+		padding: 0 0 25px 0;
+	}
+	.sectionPartners .contentSection .categoryPartners .titleCategoryPartners {
+		font-size: 15px;
+		padding-bottom: 15px;
+	}
+	.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a {
+		margin: 0 18px 18px 18px;
+	}
+
+	.sectionLocation .contentSection {
+		margin-bottom: 45px;
+	}
+
+	.sectionLocation .contentSection .btnRegistration {
+		margin-top: 40px;
+	}
+
+	.btnRegistration a {
+		font-size: 22px;
+		height: 36px;
+		line-height: 36px;
+		width: 190px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#header {
+		padding: 40px 0 170px 0;
+		background-size: auto 175px;
+	}
+	.logo {
+		padding: 0 0 40px 0;
+	}
+	.rowHeader {
+		display: none;
+	}
+	.locationHeader,
+	.siteDescription {
+		width: auto;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.sectionAgenda .contentSection .item {
+		display: block;
+	}
+	.sectionAgenda .contentSection .item .time {
+		float: left;
+	}
+
+	.sectionAgenda .contentSection .item .title {
+		margin-left: 75px;
+	}
+	.sectionAgenda .contentSection .item .description {
+		margin: 5px 25px 10px 75px;
+		padding-left: 0;
+	}
+}
