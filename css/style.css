@@ -480,6 +480,10 @@ address {
 	margin-top: 60px;
 }
 
+#mapCanvas {
+	height: 500px;
+}
+
 @media screen and (max-width: 1000px) {
 	body {
 		font-size: 15px;
@@ -548,8 +552,7 @@ address {
 		flex: 0 0 175px;
 	}
 	.sectionAgenda .contentSection .item .description {
-		flex: 0 0 220px;
-		padding-left: 10px;
+		
 	}
 	.sectionAgenda .contentSection .item .description:after {
 		width: 175px;
@@ -577,6 +580,9 @@ address {
 		height: 36px;
 		line-height: 36px;
 		width: 190px;
+	}
+	#mapCanvas {
+		height: 300px;
 	}
 }
 
@@ -610,5 +616,16 @@ address {
 	.sectionAgenda .contentSection .item .description {
 		margin: 5px 25px 10px 75px;
 		padding-left: 0;
+	}
+	.sectionAgenda .contentSection .item .description:after {
+		display: none;
+	}
+	.sectionAgenda .contentSection .item {
+		max-width: 290px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#mapCanvas {
+		height: 200px;
 	}
 }
