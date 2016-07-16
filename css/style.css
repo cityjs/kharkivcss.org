@@ -155,7 +155,6 @@ address {
 	border: 1px solid #ec0080;
 	cursor: pointer;
 	font-family: 'latolight';
-	font-size: 30px;
 	color: #ec0080;
 	text-align: center;
 	text-decoration: none;
@@ -215,7 +214,6 @@ address {
 .btnBuyTicket a {
 	display: block;
 	font-family: 'latolight';
-	font-size: 30px;
 	color: #ec0080;
 	text-decoration: none;
 	padding: 0 50px;
@@ -266,9 +264,8 @@ address {
 	width: 900px;
 	margin: 0 auto;
 	font-family: 'latolight';
-	font-size: 30px;
 	color: #999999;
-	line-height: 36px;
+	line-height: 1.2;
 	text-align: center;
 	position: relative;
 }
@@ -352,7 +349,8 @@ address {
 .sectionSpeakers .contentSection .item {
 	margin: 0 35px 70px 35px;
 	text-align: center;
-	width: 450px;
+	//width: 450px;
+	width: 225px;
 }
 
 .sectionSpeakers .contentSection .item .photo {
@@ -367,9 +365,7 @@ address {
 
 .sectionSpeakers .contentSection .item .name {
 	font-family: 'latoblack';
-	font-size: 30px;
 	color: #000;
-	line-height: 1;
 	margin-bottom: 9px;
 }
 
@@ -379,9 +375,7 @@ address {
 
 .sectionSpeakers .contentSection .item .theme {
 	font-family: 'latolight';
-	font-size: 30px;
 	color: #000;
-	line-height: 1;
 }
 
 
@@ -392,9 +386,7 @@ address {
 
 .sectionAgenda .contentSection {
 	font-family: 'latothin';
-	font-size: 30px;
 	color: #000;
-	line-height: 1;
 	margin-bottom: 120px;
 }
 
@@ -435,7 +427,6 @@ address {
 
 .sectionPartners .contentSection .categoryPartners .titleCategoryPartners {
 	font-family: 'latoblack';
-	font-size: 30px;
 	color: #000;
 	text-align: center;
 	padding-bottom: 30px;
@@ -459,12 +450,6 @@ address {
 /*****LOCATION*****/
 .sectionLocation {
 
-}
-
-.sectionLocation .contentSection {
-	text-align: center;
-	line-height: 1.4;
-	margin-bottom: 90px;
 }
 
 .sectionLocation .contentSection {
@@ -495,12 +480,9 @@ address {
 		height: 60px;
 		line-height: 60px;
 		padding: 0 37px;
-		font-size: 22px;
 	}
 	.locationHeader,
 	.siteDescription {
-		font-size: 22px;
-		line-height: 26px;
 		width: 660px;
 	}
 	.locationHeader {
@@ -531,16 +513,11 @@ address {
 		margin-bottom: 27px;
 	}
 	.sectionSpeakers .contentSection .item .name {
-		font-size: 22px;
 		margin-bottom: 7px;
-	}
-	.sectionSpeakers .contentSection .item .theme {
-		font-size: 22px;
 	}
 
 
 	.sectionAgenda .contentSection {
-		font-size: 22px;
 		margin-bottom: 90px;
 	}
 	.sectionAgenda .contentSection .item {
@@ -563,7 +540,6 @@ address {
 		padding: 0 0 37px 0;
 	}
 	.sectionPartners .contentSection .categoryPartners .titleCategoryPartners {
-		font-size: 22px;
 		padding-bottom: 22px;
 	}
 	.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a {
@@ -579,7 +555,7 @@ address {
 	}
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1000px) {
 	body {
 		font-size: 15px;
 	}
@@ -596,12 +572,9 @@ address {
 		height: 40px;
 		line-height: 40px;
 		padding: 0 20px;
-		font-size: 15px;
 	}
 	.locationHeader,
 	.siteDescription {
-		font-size: 15px;
-		line-height: 18px;
 		width: 450px;
 	}
 	.locationHeader {
@@ -632,15 +605,10 @@ address {
 		margin-bottom: 18px;
 	}
 	.sectionSpeakers .contentSection .item .name {
-		font-size: 15px;
 		margin-bottom: 5px;
-	}
-	.sectionSpeakers .contentSection .item .theme {
-		font-size: 15px;
 	}
 
 	.sectionAgenda .contentSection {
-		font-size: 15px;
 		margin-bottom: 60px;
 	}
 	.sectionAgenda .contentSection .item {
@@ -663,7 +631,6 @@ address {
 		padding: 0 0 25px 0;
 	}
 	.sectionPartners .contentSection .categoryPartners .titleCategoryPartners {
-		font-size: 15px;
 		padding-bottom: 15px;
 	}
 	.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a {
@@ -679,7 +646,6 @@ address {
 	}
 
 	.btnRegistration a {
-		font-size: 22px;
 		height: 36px;
 		line-height: 36px;
 		width: 190px;
@@ -718,3 +684,13 @@ address {
 		padding-left: 0;
 	}
 }
+
+@media screen and (max-width: 1600px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (max-width: 767px) {
