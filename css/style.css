@@ -160,6 +160,11 @@ address {
 	text-decoration: none;
 }
 
+.btnRegistration a:hover {
+	background: #ec0080;
+	color: #fff;
+}
+
 /*****************/
 /******HEADER*****/
 /*****************/
@@ -385,7 +390,7 @@ address {
 }
 
 .sectionAgenda .contentSection {
-	font-family: 'latothin';
+	font-family: 'latolight';
 	color: #000;
 	margin-bottom: 120px;
 }
