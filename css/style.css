@@ -1,16 +1,4 @@
 @font-face {
-	font-family: 'latoblack';
-	src: url('../fonts/lato-black-webfont.eot');
-	src: url('../fonts/lato-black-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/lato-black-webfont.woff2') format('woff2'),
-		 url('../fonts/lato-black-webfont.woff') format('woff'),
-		 url('../fonts/lato-black-webfont.ttf') format('truetype'),
-		 url('../fonts/lato-black-webfont.svg#latoblack') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
 	font-family: 'latolight';
 	src: url('../fonts/lato-light-webfont.eot');
 	src: url('../fonts/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
@@ -18,6 +6,18 @@
 		 url('../fonts/lato-light-webfont.woff') format('woff'),
 		 url('../fonts/lato-light-webfont.ttf') format('truetype'),
 		 url('../fonts/lato-light-webfont.svg#latolight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'latoblack';
+	src: url('../fonts/lato-black-webfont.eot');
+	src: url('../fonts/lato-black-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/lato-black-webfont.woff2') format('woff2'),
+		 url('../fonts/lato-black-webfont.woff') format('woff'),
+		 url('../fonts/lato-black-webfont.ttf') format('truetype'),
+		 url('../fonts/lato-black-webfont.svg#latoblack') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -44,9 +44,9 @@ input {
 }
 
 * {
-  vertical-align: top;
-  -moz-text-size-adjust: none;
-  -webkit-text-size-adjust: none;
+	vertical-align: top;
+	-moz-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
 }
 
 :focus {outline: none;}
@@ -55,7 +55,7 @@ html, body{height:100%; width:100%; margin:0; padding:0;}
 
 body {
 	font-family: 'latolight', Arial, sans-serif;
-	font-size: 30px;
+	font-size: 22px;
 	color: #999999;
 	line-height: 1;
 	background: #fff;
@@ -154,10 +154,9 @@ address {
 	line-height: 48px;
 	border: 1px solid #ec0080;
 	cursor: pointer;
-	font-family: 'latolight';
-	color: #ec0080;
 	text-align: center;
 	text-decoration: none;
+	transition: all 0.2s linear;
 }
 
 .btnRegistration a:hover {
@@ -170,9 +169,9 @@ address {
 /*****************/
 
 #header {
-	padding: 200px 0 644px 0;
+	padding: 150px 0 483px 0;
 	background: url('../img/header.svg') no-repeat center bottom;
-	background-size: auto 700px;
+	background-size: auto 525px;
 }
 
 .rowHeader {
@@ -188,8 +187,8 @@ address {
 .rowHeader:after {
 	content: '';
 	position: absolute;
-	left: 130px;
-	right: 140px;
+	left: 97px;
+	right: 104px;
 	bottom: 0;
 	height: 1px;
 	background: #cccccc;
@@ -218,12 +217,10 @@ address {
 .mainMenu ul li a,
 .btnBuyTicket a {
 	display: block;
-	font-family: 'latolight';
-	color: #ec0080;
 	text-decoration: none;
-	padding: 0 50px;
-	height: 80px;
-	line-height: 80px;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 37px;
 	position: relative;
 }
 
@@ -250,33 +247,31 @@ address {
 }
 
 .logo {
-	padding: 0 0 56px 0;
+	padding: 0 0 42px 0;
 	display: flex;
 	justify-content: center;
 }
 
 .logo a {
 	font-family: 'latoblack';
-	font-size: 100px;
+	font-size: 75px;
 	color: #000;
 	text-decoration: none;
-	letter-spacing: -1.7px;
-	line-height: 80px;
+	letter-spacing: -1.3px;
+	line-height: 60px;
 }
 
 .locationHeader,
 .siteDescription {
-	width: 900px;
+	width: 660px;
 	margin: 0 auto;
-	font-family: 'latolight';
-	color: #999999;
 	line-height: 1.2;
 	text-align: center;
 	position: relative;
 }
 
 .locationHeader {
-	padding-bottom: 25px;
+	padding-bottom: 15px;
 	margin-bottom: 13px;
 }
 
@@ -327,14 +322,14 @@ address {
 
 .titleSection {
 	font-family: 'latothin';
-	font-size: 80px;
+	font-size: 60px;
 	color: #000;
 	text-align: center;
-	padding-bottom: 40px;
+	padding-bottom: 30px;
 }
 
 .contentSection {
-	max-width: 1560px;
+	max-width: 1280px;
 	margin: 0 auto;
 }
 
@@ -348,19 +343,18 @@ address {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: 20px 0 40px 0;
+	padding: 15px 0 30px 0;
 }
 
 .sectionSpeakers .contentSection .item {
-	margin: 0 35px 70px 35px;
+	margin: 0 25px 50px 25px;
 	text-align: center;
-	//width: 450px;
 	width: 225px;
 }
 
 .sectionSpeakers .contentSection .item .photo {
 	width: 100%;
-	margin-bottom: 35px;
+	margin-bottom: 27px;
 }
 
 .sectionSpeakers .contentSection .item .photo img {
@@ -371,7 +365,7 @@ address {
 .sectionSpeakers .contentSection .item .name {
 	font-family: 'latoblack';
 	color: #000;
-	margin-bottom: 9px;
+	margin-bottom: 7px;
 }
 
 .sectionSpeakers .contentSection .item .about {
@@ -379,7 +373,7 @@ address {
 }
 
 .sectionSpeakers .contentSection .item .theme {
-	font-family: 'latolight';
+	
 }
 
 
@@ -389,29 +383,50 @@ address {
 }
 
 .sectionAgenda .contentSection {
-	font-family: 'latolight';
-	margin-bottom: 120px;
+	margin-bottom: 90px;
 }
 
 .sectionAgenda .contentSection .item {
+	width: 730px;
+	margin: 0 auto;
 	display: flex;
-	padding: 5px 0;
-	justify-content: center;
+	padding: 4px 0;
 }
 
 .sectionAgenda .contentSection .item .time {
-	flex: 0 0 100px;
-	padding-left: 50px;
+	flex: 0 0 75px;
+	padding-left: 35px;
 }
 
 .sectionAgenda .contentSection .item .title {
-	flex: 0 0 320px;
-	padding-right: 20px;
+	flex: 0 0 250px;
+	padding-right: 5px;
+	position: relative;
+	z-index: 2;
+}
+
+.sectionAgenda .contentSection .item .title span {
+	background: #fff;
+	padding-right: 10px;
 }
 
 .sectionAgenda .contentSection .item .description {
-	flex: 0 0 470px;
-	padding-left: 20px;
+	flex: auto;
+	padding-left: 15px;
+	position: relative;
+}
+
+.sectionAgenda .contentSection .item .description:after {
+	content: '';
+	position: absolute;
+	right: 100%;
+	top: 0.5em;
+	margin-top: 1px;
+	width: 240px;
+	height: 1px;
+	background: #999999;
+	display: block;
+	margin-right: 5px;
 }
 
 
@@ -421,7 +436,7 @@ address {
 }
 
 .sectionPartners .contentSection {
-	padding: 0 0 50px 0;
+	padding: 0 0 37px 0;
 }
 
 .sectionPartners .contentSection .categoryPartners {
@@ -432,7 +447,7 @@ address {
 	font-family: 'latoblack';
 	color: #000;
 	text-align: center;
-	padding-bottom: 30px;
+	padding-bottom: 22px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners {
@@ -444,7 +459,7 @@ address {
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners a {
 	display: block;
-	margin: 0 35px 35px 35px;
+	margin: 0 27px 27px 27px;
 }
 
 
@@ -458,104 +473,11 @@ address {
 .sectionLocation .contentSection {
 	text-align: center;
 	line-height: 1.4;
-	margin-bottom: 95px;
+	margin-bottom: 70px;
 }
 
 .sectionLocation .contentSection .btnRegistration {
-	margin-top: 80px;
-}
-
-
-@media screen and (max-width: 1600px) {
-	body {
-		font-size: 22px;
-	}
-	#header {
-		padding: 150px 0 483px 0;
-		background-size: auto 525px;
-	}
-	.rowHeader:after {
-		left: 97px;
-		right: 104px;
-	}
-	.mainMenu ul li a,
-	.btnBuyTicket a {
-		height: 60px;
-		line-height: 60px;
-		padding: 0 37px;
-	}
-	.locationHeader,
-	.siteDescription {
-		width: 660px;
-	}
-	.locationHeader {
-		padding-bottom: 15px;
-	}
-	.logo {
-		padding: 0 0 42px 0;
-	}
-	.logo a {
-		font-size: 75px;
-		letter-spacing: -1.3px;
-		line-height: 60px;
-	}
-
-	.titleSection {
-		font-size: 60px;
-		padding-bottom: 30px;
-	}
-
-	.sectionSpeakers .contentSection {
-		padding: 15px 0 30px 0;
-	}
-	.sectionSpeakers .contentSection .item {
-		margin: 0 25px 50px 25px;
-		//width: 336px;
-	}
-	.sectionSpeakers .contentSection .item .photo {
-		margin-bottom: 27px;
-	}
-	.sectionSpeakers .contentSection .item .name {
-		margin-bottom: 7px;
-	}
-
-
-	.sectionAgenda .contentSection {
-		margin-bottom: 90px;
-	}
-	.sectionAgenda .contentSection .item {
-		padding: 4px 0;
-	}
-	.sectionAgenda .contentSection .item .time {
-		flex: 0 0 75px;
-		padding-left: 37px;
-	}
-	.sectionAgenda .contentSection .item .title {
-		flex: 0 0 240px;
-		padding-right: 15px;
-	}
-	.sectionAgenda .contentSection .item .description {
-		flex: 0 0 350px;
-		padding-left: 15px;
-	}
-
-	.sectionPartners .contentSection {
-		padding: 0 0 37px 0;
-	}
-	.sectionPartners .contentSection .categoryPartners .titleCategoryPartners {
-		padding-bottom: 22px;
-	}
-	.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a {
-		margin: 0 27px 27px 27px;
-	}
-
-	.sectionLocation .contentSection {
-		margin-bottom: 70px;
-	}
-
-	.sectionLocation .contentSection .btnRegistration {
-		margin-top: 60px;
-	}
+	margin-top: 60px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -687,13 +609,3 @@ address {
 		padding-left: 0;
 	}
 }
-
-@media screen and (max-width: 1600px) {
-
-}
-
-@media screen and (max-width: 1279px) {
-
-}
-
-@media screen and (max-width: 767px) {
