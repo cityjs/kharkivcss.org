@@ -56,7 +56,7 @@ html, body{height:100%; width:100%; margin:0; padding:0;}
 body {
 	font-family: 'latolight', Arial, sans-serif;
 	font-size: 30px;
-	color: #000;
+	color: #999999;
 	line-height: 1;
 	background: #fff;
 }
@@ -391,7 +391,6 @@ address {
 
 .sectionAgenda .contentSection {
 	font-family: 'latolight';
-	color: #000;
 	margin-bottom: 120px;
 }
 
