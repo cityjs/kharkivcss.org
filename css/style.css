@@ -538,18 +538,21 @@ address {
 	}
 	.sectionAgenda .contentSection .item {
 		padding: 3px 0;
+		width: 500px;
 	}
 	.sectionAgenda .contentSection .item .time {
 		flex: 0 0 50px;
-		padding-left: 25px;
+		padding-left: 20px;
 	}
 	.sectionAgenda .contentSection .item .title {
-		flex: 0 0 160px;
-		padding-right: 10px;
+		flex: 0 0 175px;
 	}
 	.sectionAgenda .contentSection .item .description {
-		flex: 0 0 235px;
+		flex: 0 0 220px;
 		padding-left: 10px;
+	}
+	.sectionAgenda .contentSection .item .description:after {
+		width: 175px;
 	}
 
 	.sectionPartners .contentSection {
