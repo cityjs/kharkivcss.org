@@ -507,7 +507,7 @@ address {
 	}
 	.sectionSpeakers .contentSection .item {
 		margin: 0 25px 50px 25px;
-		width: 336px;
+		//width: 336px;
 	}
 	.sectionSpeakers .contentSection .item .photo {
 		margin-bottom: 27px;
