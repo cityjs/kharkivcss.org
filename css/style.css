@@ -169,10 +169,10 @@ address {
 /*****************/
 
 #header {
-	padding: 150px 0 593px 0;
+	padding: 150px 0 600px 0;
 	background: url('../img/header2.svg') no-repeat center bottom;
 	background-size: auto 825px;
-	margin-bottom: -150px;
+	margin-bottom: -230px;
 }
 
 .rowHeader {
@@ -490,8 +490,9 @@ address {
 		font-size: 15px;
 	}
 	#header {
-		padding: 100px 0 300px 0;
-		background-size: auto 320px;
+		padding: 75px 0 300px 0;
+		background-size: auto 412px;
+		margin-bottom: -115px;
 	}
 	.rowHeader:after {
 		left: 65px;
@@ -589,8 +590,9 @@ address {
 
 @media screen and (max-width: 767px) {
 	#header {
-		padding: 40px 0 170px 0;
-		background-size: auto 175px;
+		padding: 75px 0 260px 0;
+		background-size: auto 360px;
+		margin-bottom: -105px;
 	}
 	.logo {
 		padding: 0 0 40px 0;
