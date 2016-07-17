@@ -169,9 +169,10 @@ address {
 /*****************/
 
 #header {
-	padding: 150px 0 483px 0;
-	background: url('../img/header.svg') no-repeat center bottom;
-	background-size: auto 525px;
+	padding: 150px 0 593px 0;
+	background: url('../img/header2.svg') no-repeat center bottom;
+	background-size: auto 825px;
+	margin-bottom: -150px;
 }
 
 .rowHeader {
