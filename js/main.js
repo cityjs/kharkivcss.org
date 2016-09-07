@@ -54,7 +54,7 @@ $(window).on('load', function(){
 	});
 
 	$('[href="https://2event.com/ru/events/712016"]').attr('href', '#');
-	$('.btnRegistration').on('click', function(e){
+	$('body').on('click', '[href="#"]', function(e){
 		e.preventDefault();
 		alert('Все билеты уже проданы');
 	});
