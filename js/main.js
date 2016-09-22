@@ -52,10 +52,4 @@ $(window).on('load', function(){
 		menuItems.forEach(function(n){ !item && n.top < $(window).scrollTop() && (item = n) });
 		item && $('.mainMenu').find('a[href="'+item.id+'"]').parent().addClass('act');
 	});
-
-	$('[href="https://2event.com/ru/events/712016"]').attr('href', '#');
-	$('body').on('click', '[href="#"]', function(e){
-		e.preventDefault();
-		alert('Все билеты уже проданы');
-	});
 });
