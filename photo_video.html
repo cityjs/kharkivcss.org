@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>KharkivCSS</title>
+	<meta name="description" content="KharkivCSS покажет другую сторону верстки — простую и, одновременно, захватывающую. Программа конференции будет интересна дизайнерам, верстальщикам и программистам" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBh7R-zmBG23QhpUz2qxOmJlj3tEB1EdMs"></script>
+	<link href="css/style.css" rel="stylesheet" />
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/main.js"></script>
+
+
+	<meta name="title" content="KharkivCSS" />
+	<link rel="image_src" href="http://kharkivcss.org/img/thumbnail.png" />
+	<meta itemprop="image" content="http://kharkivcss.org/img/thumbnail.png" />
+
+	<meta property="og:title" content="KharkivCSS" />
+	<meta property="og:description" content="KharkivCSS покажет другую сторону верстки — простую и, одновременно, захватывающую. Программа конференции будет интересна дизайнерам, верстальщикам и программистам" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://kharkivcss.org" />
+	<meta property="og:image" content="http://kharkivcss.org/img/thumbnail.png" />
+</head>
+<body>
+
+<div id="all">
+
+	<!--****************HEADER****************-->
+	<header id="header">
+		<!-- <div class="rowHeader">
+			<nav class="mainMenu">
+				<ul>
+					<li><a href="#speakers">Докладчики</a></li>
+					<li><a href="#agenda">Программа</a></li>
+					<li><a href="#partners">Партнеры</a></li>
+					<li><a href="#location">Место</a></li>
+					<li><a href="/KharkivCSS_2016.pdf" target="_blank">Стать партнером</a></li>
+				</ul>
+			</nav>
+			<div class="btnBuyTicket"><a href="https://2event.com/ru/events/712016" target="_blank">Купить билет</a></div>
+		</div> -->
+
+		<div class="logo"><a href="/">KharkivCSS</a></div>
+
+		<!-- <div class="locationHeader">
+			<time datetime="2016-09-17">17 Сентября, 2016</time>
+			<address>Харьков, Fabrika.space, ул.&nbsp;Благовещенская, 1</address>
+		</div> -->
+		<!-- <div class="siteDescription">KharkivCSS покажет другую сторону верстки — простую и, одновременно, захватывающую. Программа конференции будет интересна дизайнерам, верстальщикам и программистам</div> -->
+		<div class="siteDescription">
+			<a href="https://www.facebook.com/KharkivCSS/photos/?tab=album&album_id=308172619546697&pnref=story" target="_blank" style="font-size: 40px;">ФОТО</a><br />
+			<a href="https://www.youtube.com/playlist?list=PLJ5NW5T60UphOVDsbAC97JQ2KEprVgh2r" target="_blank" style="font-size: 40px;">ВИДЕО</a>
+		</div>
+		<section class="section sectionPartners" style="padding-top: 30px;">
+			<div class="contentSection">
+				<div class="categoryPartners">
+					<div class="contentCategoryPartners">
+						<a href="https://twitter.com/KharkivCSS" target="_blank" style="margin-bottom: 0;"><img src="img/icon_tw.jpg" style="width: 80px;" /></a>
+						<a href="https://www.facebook.com/KharkivCSS" target="_blank" style="margin-bottom: 0;"><img src="img/icon_fb.png" style="width: 80px;" /></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- <div class="btnRegistration"><a href="https://2event.com/ru/events/712016" target="_blank">Купить билет</a></div> -->
+	</header><!-- end #header-->
+
+	<!--****************MAIN****************-->
+	<main id="main">
+		<!--****************CONTENT****************-->
+		<div id="content">
+
+			<!--**************** SPEAKERS ****************-->
+			<!-- <section class="section sectionSpeakers" id="speakers">
+				<div class="titleSection">Докладчики</div>
+				<div class="contentSection">
+					<div class="item">
+						<div class="photo"><img src="img/speakers/vladimirMakukha.jpg" /></div>
+						<div class="name">Владимир Макуха</div>
+						<div class="theme">Flexible Box Layout</div>
+					</div>
+					<div class="item">
+						<div class="photo"><img src="img/speakers/denisPereverzev.jpg" /></div>
+						<div class="name">Денис Переверзев</div>
+						<div class="theme">Grid layout</div>
+					</div>
+					<div class="item">
+						<div class="photo"><img src="img/speakers/alekseyShvayka.png" /></div>
+						<div class="name">Алексей Швайка</div>
+						<div class="theme">Прячем хаки и ускоряем рендеринг с PostCSS</div>
+					</div>
+					<div class="item">
+						<div class="photo"><img src="img/speakers/ihorZenich.jpg" /></div>
+						<div class="name">Игорь Зенич</div>
+						<div class="theme">CSS-методологии и реализация тем в больших веб-приложениях</div>
+					</div>
+					<div class="item">
+						<div class="photo"><img src="img/speakers/yuriyArtyukh.jpg" /></div>
+						<div class="name">Юрий Артюх</div>
+						<div class="theme">Если ты лентяй и верстаешь уже 12 лет</div>
+					</div>
+					<div class="item">
+						<div class="photo"><img src="img/speakers/oleksandrPavlyshch.jpg" /></div>
+						<div class="name">Александр Павлыщ</div>
+						<div class="theme">CSS 5DX</div>
+					</div>
+					<div class="item">
+						<div class="photo"><img src="img/speakers/denisYarovoi.jpg" /></div>
+						<div class="name">Денис Яровой</div>
+						<div class="theme">UX решения на практике</div>
+					</div>
+					<div class="item">
+						<div class="photo"><img src="img/speakers/antonNemtsev.jpg" /></div>
+						<div class="name">Антон Немцев</div>
+						<div class="theme">Вы не знаете CSS</div>
+					</div>
+				</div>
+			</section> -->
+
+			<!--**************** AGENDA ****************-->
+			<!-- <section class="section sectionAgenda" id="agenda">
+				<div class="titleSection">Программа</div>
+				<div class="contentSection">
+					<div class="item">
+						<div class="time">10:00</div>
+						<div class="title"><span>Начало регистрации</span></div>
+					</div>
+					<div class="item">
+						<div class="time">10:45</div>
+						<div class="title"><span>Вступительное слово</span></div>
+					</div>
+					<div class="item">
+						<div class="time">11:00</div>
+						<div class="title"><span>Владимир Макуха</span></div>
+						<div class="description">Flexible Box Layout</div>
+					</div>
+					<div class="item">
+						<div class="time">12:00</div>
+						<div class="title"><span>Денис Переверзев</span></div>
+						<div class="description">Grid layout</div>
+					</div>
+					<div class="item">
+						<div class="time">13:00</div>
+						<div class="title"><span>Алексей Швайка</span></div>
+						<div class="description">Прячем хаки и ускоряем рендеринг с PostCSS</div>
+					</div>
+					<div class="item">
+						<div class="time">14:00</div>
+						<div class="title"><span>Игорь Зенич</span></div>
+						<div class="description">CSS-методологии и реализация тем в больших веб-приложениях</div>
+					</div>
+					<div class="item">
+						<div class="time">15:00</div>
+						<div class="title"><span>Перерыв</span></div>
+					</div>
+					<div class="item">
+						<div class="time">16:00</div>
+						<div class="title"><span>Юрий Артюх</span></div>
+						<div class="description">Если ты лентяй и верстаешь уже 12 лет</div>
+					</div>
+					<div class="item">
+						<div class="time">17:00</div>
+						<div class="title"><span>Александр Павлыщ</span></div>
+						<div class="description">CSS 5DX</div>
+					</div>
+					<div class="item">
+						<div class="time">18:00</div>
+						<div class="title"><span>Денис Яровой</span></div>
+						<div class="description">UX решения на практике</div>
+					</div>
+					
+					<div class="item">
+						<div class="time">19:00</div>
+						<div class="title"><span>Антон Немцев</span></div>
+						<div class="description">Вы не знаете CSS</div>
+					</div>
+					<div class="item">
+						<div class="time">19:45</div>
+						<div class="title"><span>Закрытие конференции</span></div>
+					</div>
+				</div>
+			</section> -->
+
+			<!--**************** PARTNERS ****************-->
+			<!-- <section class="section sectionPartners" id="partners">
+				<div class="titleSection">Партнеры</div>
+				<div class="contentSection">
+					<div class="categoryPartners">
+						<div class="titleCategoryPartners">Золотые</div>
+						<div class="contentCategoryPartners">
+							<a href="https://pics.io/" target="_blank"><img src="img/partners/picsio.png" style="width: 376px" /></a>
+							<a href="https://pics.io/" target="_blank"><img src="img/partners/picsio.png" style="width: 376px" /></a>
+						</div>
+					</div>
+					<div class="categoryPartners">
+						<div class="titleCategoryPartners">Серебрянные</div>
+						<div class="contentCategoryPartners">
+							<a href="http://www.dev-pro.net/" target="_blank"><img src="img/partners/devpro.jpg" style="width: 450px;margin: -10px 0;" /></a>
+						</div>
+					</div>
+					<div class="categoryPartners">
+						<div class="titleCategoryPartners">Бронзовые</div>
+						<div class="contentCategoryPartners">
+							<a href="http://www.dataart.ua/" target="_blank"><img src="img/partners/dataart.png" style="width: 330px; padding-bottom: 20px;" /></a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section sectionPartners">
+				<div class="titleSection">Наши друзья</div>
+				<div class="contentSection">
+					<div class="categoryPartners">
+						<div class="contentCategoryPartners">
+							<a href="http://eatdog.com.ua/" target="_blank"><img src="img/partners/sestSobaku.png" /></a>
+							<a href="https://pics.io/" target="_blank"><img src="img/partners/picsio.png" style="width: 170px; padding-bottom: 20px;" /></a>
+						</div>
+					</div>
+				</div>
+			</section> -->
+			<!-- <section class="section sectionPartners">
+				<div class="titleSection">Мы в соцсетях</div>
+				<div class="contentSection">
+					<div class="categoryPartners">
+						<div class="contentCategoryPartners">
+							<a href="https://twitter.com/KharkivCSS" target="_blank"><img src="img/icon_tw.jpg" style="width: 80px;padding-bottom: 20px;" /></a>
+							<a href="https://www.facebook.com/KharkivCSS" target="_blank"><img src="img/icon_fb.png" style="width: 80px;padding-bottom: 20px;" /></a>
+						</div>
+					</div>
+				</div>
+			</section> -->
+
+			<!--**************** LOCATION ****************-->
+			<!-- <section class="section sectionLocation" id="location">
+				<div class="titleSection">Место</div>
+				<div class="contentSection">
+					<address>Харьков, Fabrika.space, ул.&nbsp;Благовещенская,&nbsp;1</address>
+					<time datetime="2016-09-17">17 Сентября, 2016</time> <br />
+					<a href="mailto:nei.css@gmail.com">nei.css@gmail.com</a>
+
+					<div class="btnRegistration"><a href="https://2event.com/ru/events/712016" target="_blank">Купить билет</a></div>
+				</div>
+			</section> -->
+
+			<!--**************** MAP ****************-->
+			<!-- <section class="section sectionMap">
+				<div id="mapCanvas"></div>
+			</section> -->
+
+		</div><!-- end #content-->
+	</main><!-- end #main-->
+</div><!-- end #all-->
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-80775456-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+</body>
+</html>

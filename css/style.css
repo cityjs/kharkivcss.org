@@ -164,6 +164,14 @@ address {
 	color: #fff;
 }
 
+.txt {
+	max-width: 530px;
+	text-align: center;
+	padding: 0 0 70px 0;
+	line-height: 1.4;
+	margin: 0 auto;
+}
+
 /*****************/
 /******HEADER*****/
 /*****************/
