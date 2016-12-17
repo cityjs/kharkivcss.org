@@ -167,7 +167,7 @@ address {
 .txt {
 	max-width: 530px;
 	text-align: center;
-	padding: 0 0 70px 0;
+	padding: 0 10px 70px 10px;
 	line-height: 1.4;
 	margin: 0 auto;
 }
@@ -259,6 +259,7 @@ address {
 	padding: 0 0 42px 0;
 	display: flex;
 	justify-content: center;
+	text-align: center;
 }
 
 .logo a {
@@ -606,6 +607,9 @@ address {
 	.logo {
 		padding: 0 0 40px 0;
 	}
+	.logo a {
+		font-size: 42px;
+	}
 	.rowHeader {
 		display: none;
 	}
@@ -636,6 +640,10 @@ address {
 		max-width: 290px;
 		padding-left: 10px;
 		padding-right: 10px;
+	}
+
+	.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a {
+		margin: 0 12px 12px 12px;
 	}
 	#mapCanvas {
 		height: 200px;
