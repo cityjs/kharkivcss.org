@@ -41,14 +41,18 @@
 	<meta name="msapplication-TileImage" content="/img/icon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
-	<style>
+	<!-- <style>
 		.mainMenu {
 			width: 100%;
 		}
 		.mainMenu ul {
 			justify-content: center;
 		}
-	</style>
+		.btnBuyTicket,
+		.btnRegistration {
+			display: none;
+		}
+	</style> -->
 </head>
 <body>
 
@@ -60,13 +64,13 @@
 			<nav class="mainMenu">
 				<ul>
 					<li><a href="#speakers">Докладчики</a></li>
-					<!-- <li><a href="#agenda">Программа</a></li> -->
+					<li><a href="#agenda">Программа</a></li>
 					<li><a href="#partners">Партнеры</a></li>
 					<li><a href="#location">Место</a></li>
 					<li><a href="/KharkivCSS_2.pdf" target="_blank">Стать партнером</a></li>
 				</ul>
 			</nav>
-			<!-- <div class="btnBuyTicket"><a href="https://2event.com/ru/events/791377" target="_blank">Купить билет</a></div> -->
+			<div class="btnBuyTicket"><a href="https://2event.com/ru/events/791377" target="_blank">Купить билет</a></div>
 		</div>
 
 		<div class="logo"><a href="/">KharkivCSS #2</a></div>
@@ -78,7 +82,7 @@
 
 		<div class="siteDescription">KharkivCSS покажет другую сторону верстки — простую и, одновременно, захватывающую. Программа конференции будет интересна дизайнерам, верстальщикам и программистам</div>
 
-		<!-- <div class="btnRegistration"><a href="https://2event.com/ru/events/791377" target="_blank">Купить билет</a></div> -->
+		<div class="btnRegistration"><a href="https://2event.com/ru/events/791377" target="_blank">Купить билет</a></div>
 	</header><!-- end #header-->
 
 	<!--****************MAIN****************-->
@@ -90,52 +94,53 @@
 			<section class="section sectionSpeakers" id="speakers">
 				<div class="titleSection">Докладчики</div>
 				<div class="contentSection">
-					<div class="txt">Если вы хотите стать спикером на следующей конференции, заполните небольшую форму <a href="https://goo.gl/forms/jUS5Nz390MVCCkEF2" target="_blank">https://goo.gl/forms/jUS5Nz390MVCCkEF2</a></div>
-					<!-- <div class="item">
-						<div class="photo"><img src="img/speakers/vladimirMakukha.jpg" /></div>
-						<div class="name">Владимир Макуха</div>
-						<div class="theme">Flexible Box Layout</div>
+					<!-- <div class="txt">Если вы хотите стать спикером на следующей конференции, заполните небольшую форму <a href="https://goo.gl/forms/jUS5Nz390MVCCkEF2" target="_blank">https://goo.gl/forms/jUS5Nz390MVCCkEF2</a></div> -->
+					<div class="item">
+						<div class="photo"><img src="img/speakers2/yevhenIsakov.jpg" /></div>
+						<div class="name">Евгений Исаков</div>
+						<div class="theme">CSS Selectors</div>
 					</div>
 					<div class="item">
-						<div class="photo"><img src="img/speakers/denisPereverzev.jpg" /></div>
-						<div class="name">Денис Переверзев</div>
-						<div class="theme">Grid layout</div>
+						<div class="photo"><img src="img/speakers2/helenZhukova.png" /></div>
+						<div class="name">Елена Жукова</div>
+						<div class="theme">CSS переменные</div>
 					</div>
 					<div class="item">
-						<div class="photo"><img src="img/speakers/alekseyShvayka.png" /></div>
-						<div class="name">Алексей Швайка</div>
-						<div class="theme">Прячем хаки и ускоряем рендеринг с PostCSS</div>
+						<div class="photo"><img src="img/speakers2/andreyBoyko.jpg" /></div>
+						<div class="name">Андрей Бойко</div>
+						<div class="theme">Построение сложных анимационных интерфейсов</div>
 					</div>
 					<div class="item">
-						<div class="photo"><img src="img/speakers/ihorZenich.jpg" /></div>
-						<div class="name">Игорь Зенич</div>
-						<div class="theme">CSS-методологии и реализация тем в больших веб-приложениях</div>
+						<div class="photo"><img src="img/speakers2/victorPavlov.jpg" /></div>
+						<div class="name">Виктор Павлов</div>
+						<div class="theme">Фронтенд по фэн-шуй</div>
 					</div>
 					<div class="item">
-						<div class="photo"><img src="img/speakers/yuriyArtyukh.jpg" /></div>
-						<div class="name">Юрий Артюх</div>
-						<div class="theme">Если ты лентяй и верстаешь уже 12 лет</div>
-					</div>
-					<div class="item">
-						<div class="photo"><img src="img/speakers/oleksandrPavlyshch.jpg" /></div>
-						<div class="name">Александр Павлыщ</div>
-						<div class="theme">CSS 5DX</div>
-					</div>
-					<div class="item">
-						<div class="photo"><img src="img/speakers/denisYarovoi.jpg" /></div>
-						<div class="name">Денис Яровой</div>
-						<div class="theme">UX решения на практике</div>
-					</div>
-					<div class="item">
-						<div class="photo"><img src="img/speakers/antonNemtsev.jpg" /></div>
+						<div class="photo"><img src="img/speakers2/antonNemtsev.jpg" /></div>
 						<div class="name">Антон Немцев</div>
-						<div class="theme">Вы не знаете CSS</div>
-					</div> -->
+						<div class="theme">------------</div>
+					</div>
+					<div class="item">
+						<div class="photo"><img src="img/speakers2/misterio.png" /></div>
+						<div class="name">Ищем спикера</div>
+						<div class="theme">------------</div>
+					</div>
+
+					<div class="item">
+						<div class="photo"><img src="img/speakers2/denisYarovoi.jpg" /></div>
+						<div class="name">Денис Яровой</div>
+						<div class="theme">Функциональные анимации в веб</div>
+					</div>
+					<div class="item">
+						<div class="photo"><img src="img/speakers2/vadimMakeev.jpg" /></div>
+						<div class="name">Вадим Макеев</div>
+						<div class="theme">Мой ванильный CSS</div>
+					</div>
 				</div>
 			</section>
 
 			<!--**************** AGENDA ****************-->
-			<!-- <section class="section sectionAgenda" id="agenda">
+			<section class="section sectionAgenda" id="agenda">
 				<div class="titleSection">Программа</div>
 				<div class="contentSection">
 					<div class="item">
@@ -148,23 +153,23 @@
 					</div>
 					<div class="item">
 						<div class="time">11:00</div>
-						<div class="title"><span>Владимир Макуха</span></div>
-						<div class="description">Flexible Box Layout</div>
+						<div class="title"><span>Евгений Исаков</span></div>
+						<div class="description">CSS Selectors</div>
 					</div>
 					<div class="item">
 						<div class="time">12:00</div>
-						<div class="title"><span>Денис Переверзев</span></div>
-						<div class="description">Grid layout</div>
+						<div class="title"><span>Елена Жукова</span></div>
+						<div class="description">CSS переменные</div>
 					</div>
 					<div class="item">
 						<div class="time">13:00</div>
-						<div class="title"><span>Алексей Швайка</span></div>
-						<div class="description">Прячем хаки и ускоряем рендеринг с PostCSS</div>
+						<div class="title"><span>Андрей Бойко</span></div>
+						<div class="description">Построение сложных анимационных интерфейсов</div>
 					</div>
 					<div class="item">
 						<div class="time">14:00</div>
-						<div class="title"><span>Игорь Зенич</span></div>
-						<div class="description">CSS-методологии и реализация тем в больших веб-приложениях</div>
+						<div class="title"><span>Виктор Павлов</span></div>
+						<div class="description">Фронтенд по фэн-шуй</div>
 					</div>
 					<div class="item">
 						<div class="time">15:00</div>
@@ -172,31 +177,31 @@
 					</div>
 					<div class="item">
 						<div class="time">16:00</div>
-						<div class="title"><span>Юрий Артюх</span></div>
-						<div class="description">Если ты лентяй и верстаешь уже 12 лет</div>
+						<div class="title"><span>Антон Немцев</span></div>
+						<div class="description">------------</div>
 					</div>
 					<div class="item">
 						<div class="time">17:00</div>
-						<div class="title"><span>Александр Павлыщ</span></div>
-						<div class="description">CSS 5DX</div>
+						<div class="title"><span>Ищем спикера</span></div>
+						<div class="description">------------</div>
 					</div>
 					<div class="item">
 						<div class="time">18:00</div>
 						<div class="title"><span>Денис Яровой</span></div>
-						<div class="description">UX решения на практике</div>
+						<div class="description">Функциональные анимации в веб</div>
 					</div>
 					
 					<div class="item">
 						<div class="time">19:00</div>
-						<div class="title"><span>Антон Немцев</span></div>
-						<div class="description">Вы не знаете CSS</div>
+						<div class="title"><span>Вадим Макеев</span></div>
+						<div class="description">Мой ванильный CSS</div>
 					</div>
 					<div class="item">
 						<div class="time">19:45</div>
 						<div class="title"><span>Закрытие конференции</span></div>
 					</div>
 				</div>
-			</section> -->
+			</section>
 
 			<!--**************** PARTNERS ****************-->
 			<section class="section sectionPartners" id="partners">
@@ -257,7 +262,7 @@
 					<time datetime="2016-09-17">22 Апреля, 2017</time> <br />
 					<a href="mailto:nei.css@gmail.com">nei.css@gmail.com</a>
 
-					<!-- <div class="btnRegistration"><a href="https://2event.com/ru/events/791377" target="_blank">Купить билет</a></div> -->
+					<div class="btnRegistration"><a href="https://2event.com/ru/events/791377" target="_blank">Купить билет</a></div>
 				</div>
 			</section>
 
