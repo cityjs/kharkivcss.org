@@ -346,7 +346,8 @@ address {
 
 /*****SPEAKERS*****/
 .sectionSpeakers {
-
+	position: relative;
+	z-index: 3;
 }
 
 .sectionSpeakers .contentSection {
@@ -360,6 +361,7 @@ address {
 	margin: 0 25px 50px 25px;
 	text-align: center;
 	width: 225px;
+	position: relative;
 }
 
 .sectionSpeakers .contentSection .item .photo {
@@ -378,12 +380,47 @@ address {
 	margin-bottom: 7px;
 }
 
-.sectionSpeakers .contentSection .item .about {
-	
+.sectionSpeakers .contentSection .item .theme {
+	font-size: 17px;
 }
 
-.sectionSpeakers .contentSection .item .theme {
-	
+.sectionSpeakers .contentSection .item .description {
+	font-size: 13px;
+	line-height: 1.2;
+	color: #000;
+	height: 57px;
+	overflow: hidden;
+	margin-top: 8px;
+	position: relative;
+}
+
+.sectionSpeakers .contentSection .item .description:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+}
+
+.sectionSpeakers .contentSection .item .description:hover {
+	overflow: visible;
+	text-align: left;
+	width: calc(100% + 24px);
+	left: -12px;
+	z-index: 10;
+}
+
+.sectionSpeakers .contentSection .item .description:hover:after {
+	display: none;
+}
+
+.sectionSpeakers .contentSection .item .description:hover .innerDescription {
+	background: #fff;
+	box-shadow: 0 0 20px #ccc;
+	background: #fff;
+	padding: 12px;
 }
 
 
