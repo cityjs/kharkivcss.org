@@ -532,6 +532,30 @@ address {
 	height: 500px;
 }
 
+/*****FOOTER*****/
+#footer {
+	
+}
+
+#footer .footMenu ul {
+	color: blue;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+#footer .footMenu ul li {
+	margin: 0;
+	padding: 20px;
+}
+
+#footer .footMenu ul li a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
 @media screen and (max-width: 1150px) {
 	body {
 		font-size: 15px;
