@@ -355,6 +355,7 @@ address {
 	flex-wrap: wrap;
 	justify-content: center;
 	padding: 15px 0 30px 0;
+	max-width: 1000px;
 }
 
 .sectionSpeakers .contentSection .item {
