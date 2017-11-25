@@ -512,6 +512,42 @@ address {
 }
 
 
+/*****CONTACTS*****/
+.sectionContacts {
+
+}
+
+.sectionContacts .contentSection {
+	text-align: center;
+	line-height: 1.4;
+	margin-bottom: 70px;
+}
+
+
+/*****SOCIAL*****/
+.sectionSocial {
+
+}
+
+.sectionSocial .contentSection {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 30px;
+}
+
+.sectionSocial .contentSection a {
+	display: block;
+	margin: 0 27px 27px 27px;
+}
+
+.sectionSocial .contentSection a img {
+	width: 80px;
+	padding-bottom: 20px;
+}
+
+
 
 
 /*****LOCATION*****/
@@ -556,6 +592,8 @@ address {
 	text-decoration: none;
 	cursor: pointer;
 }
+
+
 
 @media screen and (max-width: 1150px) {
 	body {
