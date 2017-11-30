@@ -509,6 +509,13 @@ address {
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners a {
 	display: block;
 	margin: 0 27px 27px 27px;
+	opacity: 0.9;
+	transition: all .15s linear;
+}
+
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a:hover {
+	transform: scale(1.05);
+	opacity: 1;
 }
 
 
@@ -540,6 +547,12 @@ address {
 .sectionSocial .contentSection a {
 	display: block;
 	margin: 0 27px 27px 27px;
+	transition: all .15s linear;
+}
+
+.sectionSocial .contentSection a:hover {
+	transform: scale(1.05);
+	opacity: 1;
 }
 
 .sectionSocial .contentSection a img {
