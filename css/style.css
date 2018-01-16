@@ -49,7 +49,7 @@ input {
 	-webkit-text-size-adjust: none;
 }
 
-:focus {outline: none;}
+
 input[type="submit"]::-moz-focus-inner {border: none;}
 html, body{height:100%; width:100%; margin:0; padding:0;}
 
@@ -170,6 +170,13 @@ address {
 	padding: 0 10px 70px 10px;
 	line-height: 1.4;
 	margin: 0 auto;
+}
+
+.subtitleSection {
+	font-family: 'latoblack';
+	color: #000;
+	text-align: center;
+	padding-bottom: 22px;
 }
 
 /*****************/
@@ -359,15 +366,14 @@ address {
 }
 
 .sectionSpeakers .contentSection .item {
-	margin: 0 25px 50px 25px;
-	text-align: center;
-	width: 225px;
-	position: relative;
+	margin: 0 25px 30px 25px;
+	display: flex;
+	width: 100%;
 }
 
 .sectionSpeakers .contentSection .item .photo {
-	width: 100%;
-	margin-bottom: 27px;
+	flex: 0 0 225px;
+	margin-right: 20px;
 }
 
 .sectionSpeakers .contentSection .item .photo img {
@@ -375,53 +381,47 @@ address {
 	display: block;
 }
 
-.sectionSpeakers .contentSection .item .name {
+.sectionSpeakers .contentSection .item .data {
+	flex: auto;
+}
+
+.sectionSpeakers .contentSection .item .data .theme {
 	font-family: 'latoblack';
 	color: #000;
-	margin-bottom: 7px;
+	margin-bottom: 10px;
 }
 
-.sectionSpeakers .contentSection .item .theme {
+.sectionSpeakers .contentSection .item .data .name {
 	font-size: 17px;
+	margin-bottom: 10px;
 }
 
-.sectionSpeakers .contentSection .item .description {
+.sectionSpeakers .contentSection .item .data .description,
+.sectionSpeakers .contentSection .item .data .about {
 	font-size: 13px;
 	line-height: 1.2;
 	color: #000;
-	height: 57px;
-	overflow: hidden;
-	margin-top: 8px;
-	position: relative;
+	margin-bottom: 15px;
 }
 
-.sectionSpeakers .contentSection .item .description:after {
-	content: '';
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 50px;
-	background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+.sectionSpeakers .contentSection .item .data .social {
+	font-size: 13px;
+	line-height: 1.2;
+	color: #000;
 }
 
-.sectionSpeakers .contentSection .item .description:hover {
-	overflow: visible;
-	text-align: left;
-	width: calc(100% + 24px);
-	left: -12px;
-	z-index: 10;
+.sectionSpeakers .contentSection .item .data .social {
+	display: flex;
+	align-items: center;
 }
 
-.sectionSpeakers .contentSection .item .description:hover:after {
-	display: none;
+.sectionSpeakers .contentSection .item .data .social a {
+	margin-right: 10px;
+	font-size: 18px;
 }
 
-.sectionSpeakers .contentSection .item .description:hover .innerDescription {
-	background: #fff;
-	box-shadow: 0 0 20px #ccc;
-	background: #fff;
-	padding: 12px;
+.sectionSpeakers .contentSection .item .data .social a img {
+	width: 25px;
 }
 
 
@@ -432,6 +432,10 @@ address {
 
 .sectionAgenda .contentSection {
 	margin-bottom: 90px;
+}
+
+.sectionAgenda .contentSection .categoryAgenda {
+	margin-bottom: 35px;
 }
 
 .sectionAgenda .contentSection .item {
@@ -489,13 +493,6 @@ address {
 
 .sectionPartners .contentSection .categoryPartners {
 	
-}
-
-.sectionPartners .contentSection .categoryPartners .titleCategoryPartners {
-	font-family: 'latoblack';
-	color: #000;
-	text-align: center;
-	padding-bottom: 22px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners {
@@ -652,8 +649,7 @@ address {
 		padding: 10px 0 20px 0;
 	}
 	.sectionSpeakers .contentSection .item {
-		margin: 0 18px 35px 18px;
-		width: 220px;
+		
 	}
 	.sectionSpeakers .contentSection .item .photo {
 		margin-bottom: 18px;
@@ -685,9 +681,6 @@ address {
 
 	.sectionPartners .contentSection {
 		padding: 0 0 25px 0;
-	}
-	.sectionPartners .contentSection .categoryPartners .titleCategoryPartners {
-		padding-bottom: 15px;
 	}
 	.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a {
 		margin: 0 18px 18px 18px;
@@ -732,6 +725,16 @@ address {
 		margin-left: 20px;
 		margin-right: 20px;
 	}
+
+	.sectionSpeakers .contentSection .item {
+		flex-direction: column;	
+	}
+
+	.sectionSpeakers .contentSection .item .photo {
+		width: 200px;
+		flex: none;
+	}
+
 	.sectionAgenda .contentSection .item {
 		display: block;
 	}
