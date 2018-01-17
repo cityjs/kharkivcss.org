@@ -75,10 +75,10 @@
 		<div class="rowHeader">
 			<nav class="mainMenu">
 				<ul>
-					<li><a href="#speakers">Доповідачі</a></li>
-					<!-- <li><a href="#agenda">Програма</a></li> -->
-					<li><a href="#partners">Партнери</a></li>
-					<li><a href="#location">Місце</a></li>
+					<li><a href="#speakers" onClick="_gaq.push(['_trackEvent', 'Btns', 'FixedMenu', 'Speakers']);">Доповідачі</a></li>
+					<!-- <li><a href="#agenda" onClick="_gaq.push(['_trackEvent', 'Btns', 'FixedMenu', 'Agenda']);">Програма</a></li> -->
+					<li><a href="#partners" onClick="_gaq.push(['_trackEvent', 'Btns', 'FixedMenu', 'Partners']);">Партнери</a></li>
+					<li><a href="#location" onClick="_gaq.push(['_trackEvent', 'Btns', 'FixedMenu', 'Location']);">Місце</a></li>
 					<!-- <li><a href="/KharkivCSS_3.pdf" target="_blank">Стати партнером</a></li> -->
 				</ul>
 			</nav>
@@ -416,16 +416,16 @@
 					<div class="categoryPartners">
 						<div class="subtitleSection">Gold</div>
 						<div class="contentCategoryPartners">
-							<a href="https://pics.io/" target="_blank"><img src="img/partners/picsio.png" style="width: 280px; padding-bottom: 20px;" /></a>
+							<a href="https://pics.io/" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'Picsio']);" target="_blank"><img src="img/partners/picsio.png" style="width: 280px; padding-bottom: 20px;" /></a>
 							<!-- <a href="https://www.zfort.com/" target="_blank"><img src="img/partners/zfort.png" style="width: 360px" /></a> -->
 						</div>
 					</div>
 					<div class="categoryPartners">
 						<div class="subtitleSection">Silver</div>
 						<div class="contentCategoryPartners">
-							<a href="http://markupus.com/" target="_blank"><img src="img/partners/markupus.png" style="width: 350px;margin: -10px 0;" /></a>
+							<a href="http://markupus.com/" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'Markupus']);" target="_blank"><img src="img/partners/markupus.png" style="width: 350px;margin: -10px 0;" /></a>
 							<br />
-							<a href="http://www.dev-pro.net/" target="_blank"><img src="img/partners/devpro.jpg" style="width: 400px;margin: -10px 0;" /></a>
+							<a href="http://www.dev-pro.net/" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'Devpro']);" target="_blank"><img src="img/partners/devpro.jpg" style="width: 400px;margin: -10px 0;" /></a>
 
 						</div>
 					</div>
@@ -450,10 +450,10 @@
 			<section class="section sectionSocial">
 				<div class="titleSection">Ми в соцмережах</div>
 				<div class="contentSection">
-					<a href="https://twitter.com/KharkivCSS" target="_blank"><img src="img/social/tw.png" /></a>
-					<a href="https://www.facebook.com/KharkivCSS" target="_blank"><img src="img/social/fb.png" /></a>
-					<a href="https://vk.com/kharkivcss" target="_blank"><img src="img/social/vk.png" /></a>
-					<a href="https://www.youtube.com/c/KharkivCSSConf" target="_blank"><img src="img/social/youtube.png" /></a>
+					<a href="https://twitter.com/KharkivCSS" onClick="_gaq.push(['_trackEvent', 'Btns', 'Social', 'TW']);" target="_blank"><img src="img/social/tw.png" /></a>
+					<a href="https://www.facebook.com/KharkivCSS" onClick="_gaq.push(['_trackEvent', 'Btns', 'Social', 'FB']);" target="_blank"><img src="img/social/fb.png" /></a>
+					<a href="https://vk.com/kharkivcss" onClick="_gaq.push(['_trackEvent', 'Btns', 'Social', 'VK']);" target="_blank"><img src="img/social/vk.png" /></a>
+					<a href="https://www.youtube.com/c/KharkivCSSConf" onClick="_gaq.push(['_trackEvent', 'Btns', 'Social', 'YT']);" target="_blank"><img src="img/social/youtube.png" /></a>
 				</div>
 			</section>
 
@@ -479,9 +479,9 @@
 	<footer id="footer">
 		<nav class="footMenu">
 			<ul>
-				<li><a href="/2016">2016</a></li>
-				<li><a href="/2017">2017</a></li>
-				<li><a href="/">2018</a></li>
+				<li><a href="/2016" onClick="_gaq.push(['_trackEvent', 'Btns', 'FootMenu', '2016']);">2016</a></li>
+				<li><a href="/2017"  onClick="_gaq.push(['_trackEvent', 'Btns', 'FootMenu', '2017']);">2017</a></li>
+				<li><a href="/"  onClick="_gaq.push(['_trackEvent', 'Btns', 'FootMenu', '2018']);">2018</a></li>
 			</ul>
 		</nav>
 	</footer>
