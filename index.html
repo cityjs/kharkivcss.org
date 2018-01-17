@@ -41,6 +41,18 @@
 	<meta name="msapplication-TileImage" content="/img/icon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-80775456-1']);
+		_gaq.push(['_trackPageview']);
+	  
+		(function() {
+		  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
 	<style>
 		/* .mainMenu {
 			width: 100%;
@@ -70,7 +82,7 @@
 					<!-- <li><a href="/KharkivCSS_3.pdf" target="_blank">Стати партнером</a></li> -->
 				</ul>
 			</nav>
-			<div class="btnBuyTicket"><a href="http://kharkivcss3.2event.com/" target="_blank">Купити квиток</a></div>
+			<div class="btnBuyTicket"><a href="http://kharkivcss3.2event.com/" onClick="_gaq.push(['_trackEvent', 'Btns', 'Buy', 'MainMenu']);" target="_blank">Купити квиток</a></div>
 		</div>
 
 		<div class="logo"><a href="/">KharkivCSS #3</a></div>
@@ -82,7 +94,7 @@
 
 		<!-- <div class="siteDescription">KharkivCSS покаже іншу сторону верстки — просту і, одночасно, захоплюючу. Програма конференції буде цікава дизайнерам, верстальщикам і програмістам</div> -->
 
-		<div class="btnRegistration"><a href="http://kharkivcss3.2event.com/" target="_blank">Купити квиток</a></div>
+		<div class="btnRegistration"><a href="http://kharkivcss3.2event.com/" onClick="_gaq.push(['_trackEvent', 'Btns', 'Buy', 'Header']);" target="_blank">Купити квиток</a></div>
 	</header><!-- end #header-->
 
 	<!--****************MAIN****************-->
@@ -452,7 +464,7 @@
 					<address>Харків, Fabrika.space, вул.&nbsp;Благовіщенська,&nbsp;1</address>
 					<time datetime="2016-09-17">21 Квітня, 2018</time> <br />
 
-					<div class="btnRegistration"><a href="http://kharkivcss3.2event.com/" target="_blank">Купити квиток</a></div>
+					<div class="btnRegistration"><a href="http://kharkivcss3.2event.com/" onClick="_gaq.push(['_trackEvent', 'Btns', 'Buy', 'Location']);" target="_blank">Купити квиток</a></div>
 				</div>
 			</section>
 
