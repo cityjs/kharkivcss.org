@@ -374,12 +374,39 @@ address {
 .sectionSpeakers .contentSection .item .photo {
 	flex: 0 0 225px;
 	margin-right: 20px;
+	position: relative;
+	align-self: flex-start;
 }
 
 .sectionSpeakers .contentSection .item .photo img {
 	width: 100%;
 	display: block;
 }
+
+.sectionSpeakers .contentSection .item .photo .social {
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+	background: #fff;
+	font-size: 13px;
+	line-height: 1.2;
+	color: #000;
+}
+
+.sectionSpeakers .contentSection .item .photo .social {
+	display: flex;
+	align-items: center;
+}
+
+.sectionSpeakers .contentSection .item .photo .social a {
+	margin: 5px;
+	font-size: 18px;
+}
+
+.sectionSpeakers .contentSection .item .photo .social a img {
+	width: 25px;
+}
+
 
 .sectionSpeakers .contentSection .item .data {
 	flex: auto;
@@ -404,26 +431,6 @@ address {
 	line-height: 1.2;
 	color: #000;
 	margin-bottom: 15px;
-}
-
-.sectionSpeakers .contentSection .item .data .social {
-	font-size: 13px;
-	line-height: 1.2;
-	color: #000;
-}
-
-.sectionSpeakers .contentSection .item .data .social {
-	display: flex;
-	align-items: center;
-}
-
-.sectionSpeakers .contentSection .item .data .social a {
-	margin-right: 10px;
-	font-size: 18px;
-}
-
-.sectionSpeakers .contentSection .item .data .social a img {
-	width: 25px;
 }
 
 
