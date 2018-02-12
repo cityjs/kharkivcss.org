@@ -448,7 +448,7 @@ address {
 }
 
 .sectionAgenda .contentSection .item {
-	width: 730px;
+	width: 900px;
 	margin: 0 auto;
 	display: flex;
 	padding: 4px 0;
@@ -464,6 +464,10 @@ address {
 	padding-right: 5px;
 	position: relative;
 	z-index: 2;
+}
+
+.sectionAgenda .contentSection .item.secondaryItem {
+	color: #ccc;
 }
 
 .sectionAgenda .contentSection .item .title span {
