@@ -403,8 +403,9 @@ address {
 	font-size: 18px;
 }
 
-.sectionSpeakers .contentSection .item .photo .social a img {
+.sectionSpeakers .contentSection .item .photo .social a svg {
 	width: 25px;
+	height: 25px;
 }
 
 
@@ -565,8 +566,9 @@ address {
 	opacity: 1;
 }
 
-.sectionSocial .contentSection a img {
+.sectionSocial .contentSection a svg {
 	width: 80px;
+	height: 80px;
 	padding-bottom: 20px;
 }
 
