@@ -270,13 +270,13 @@ hr {
 /*****************/
 
 .header {
-	margin: 132px 0 90px 0;
+	margin: 100px 0 90px 0;
 	background: url('../img/header_x2.jpg') no-repeat center top/1435px auto;
 	line-height: 1;
 }
 
 .logo {
-	padding: 200px 0 310px 0;
+	padding: 240px 0 310px 0;
 	display: flex;
 	justify-content: center;
 	text-align: center;
