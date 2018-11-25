@@ -32,7 +32,7 @@ $(window).on('load', function(){
 
 		e.originalEvent.preventDefault();
 		$('html, body').animate({
-			scrollTop: $(hash).offset().top - $('.rowHeader').height() - 20
+			scrollTop: $(hash).offset().top - 70
 		}, 600, 'linear');
 	});
 
@@ -41,7 +41,7 @@ $(window).on('load', function(){
 		var href = a.getAttribute('href');
 		return {
 			id: href,
-			top: $(href).offset().top - $('.rowHeader').height() - 21
+			top: $(href).offset().top - 70
 		};
 	});
 	menuItems = [].slice.call(menuItems).reverse();
