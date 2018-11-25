@@ -61,7 +61,7 @@ body {
 	font-family: 'latolight', Arial, sans-serif;
 	font-size: 20px;
 	color: #dddddd;
-	line-height: 1.2;
+	line-height: 1.3;
 	background: #232323;
 }
 
@@ -148,10 +148,6 @@ address {
 
 }
 
-.btnRegistration {
-	
-}
-
 hr {
 	border: none;
 	border-top: 1px solid #4f4f4f;
@@ -169,6 +165,9 @@ hr {
 	padding: 0 4px;
 }
 
+/*
+<div class="btnRegistration"><a href="http://kharkivcss4.2event.com/" onClick="_gaq.push(['_trackEvent', 'Btns', 'Buy', 'Header']);" target="_blank">Купити квиток</a></div>
+*/
 .btnRegistration {
 	display: flex;
 	justify-content: center;
@@ -207,7 +206,7 @@ hr {
 	left: 0;
 	top: 0;
 	width: 100%;
-	background: #232323;
+	background: rgba(35,35,35, 0.95);
 	z-index: 3;
 }
 
@@ -239,7 +238,7 @@ hr {
 	font-family: 'latoregular';
 }
 
-.mainMenu ul li:not(.btnRegistration) a::before {
+/* .mainMenu ul li:not(.btnRegistration) a::before {
 	content: '';
 	width: 5px;
 	height: 5px;
@@ -250,7 +249,7 @@ hr {
 	bottom: 15px;
 	margin-left: -2.5px;
 	z-index: 2;
-}
+} */
 
 .mainMenu ul li:not(.btnRegistration) a:hover {
 	color: #a4b9fb;
@@ -308,10 +307,11 @@ hr {
 .locationHeader {
 	width: 620px;
 	margin: 0 auto;
-	padding-bottom: 70px;
+	padding-bottom: 30px;
 	text-align: center;
 	font-size: 30px;
 	letter-spacing: -0.25px;
+	line-height: 1.3;
 }
 
 .header .btnRegistration {
@@ -369,12 +369,14 @@ hr {
 	overflow: hidden;
 	border-radius: 50%;
 	margin: 0 auto 30px auto;
+	border: 5px solid #fff;
 }
 
 .sectionSpeakers .item .dataAdditional .photoIcon {
 	width: 90px;
 	height: 90px;
 	margin: 10px auto 0 auto;
+	opacity: 0.3;
 }
 
 .sectionSpeakers .item .dataAdditional .photo img {
@@ -434,6 +436,7 @@ hr {
 
 .sectionSpeakers .item .dataMain .topic {
 	font-size: 30px;
+	color: #fff;
 	font-family: 'latoblack';
 	letter-spacing: -0.25px;
 	padding-bottom: 0.5em;
@@ -441,6 +444,7 @@ hr {
 
 .sectionSpeakers .item .dataMain .name {
 	font-size: 24px;
+	color: #fff;
 	font-family: 'latobold';
 	letter-spacing: -0.25px;
 	padding-bottom: 0.5em;
@@ -471,6 +475,7 @@ hr {
 	text-align: right;
 	font-family: 'latoblack';
 	font-size: 36px;
+	color: #fff;
 	text-align: right;
 }
 
@@ -506,6 +511,7 @@ hr {
 	overflow: hidden;
 	border-radius: 50%;
 	margin-bottom: 20px;
+	border: 5px solid #fff;
 }
 	
 .sectionOrganizers .contentSection .item .photo img {
