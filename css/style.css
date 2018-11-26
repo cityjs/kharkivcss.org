@@ -386,6 +386,22 @@ hr {
 
 }
 
+.alignItemsCenter {
+	align-items: center;
+}
+
+.sectionSpeakers .item.alignItemsCenter .dataAdditional .photoIcon {
+	margin-top: 0;
+}
+
+.sectionSpeakers .item.alignItemsCenter .dataMain .topic {
+	padding-bottom: 0;
+}
+
+.sectionSpeakers .item.alignItemsCenter .dataAdditional .photo {
+	margin-bottom: 0;
+}
+
 .sectionSpeakers .item {
 	display: flex;
 	padding-bottom: 90px;
