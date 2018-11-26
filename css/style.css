@@ -241,6 +241,8 @@ hr {
 	display: block;
 	padding: 0 35px;
 	font-family: 'latoregular';
+	width: 120px;
+	text-align: center;
 }
 
 /* .mainMenu ul li:not(.btnRegistration) a::before {
@@ -264,11 +266,11 @@ hr {
 	background: #a4b9fb;
 }
 
-.mainMenu ul li.btnRegistration {
+/* .mainMenu ul li.btnRegistration {
 	position: absolute;
 	right: 19px;
 	top: 19px;
-}
+} */
 
 /*****************/
 /******HEADER*****/
@@ -701,9 +703,9 @@ hr {
 }
 
 @media screen and (max-width: 1279px) {
-	.mainMenu ul {
+	/* .mainMenu ul {
 		justify-content: flex-start;
-	}
+	} */
 
 	.sectionSpeakers .item .dataAdditional {
 		flex: 0 0 340px;
@@ -720,6 +722,8 @@ hr {
 	}
 
 	.mainMenu ul li:not(.btnRegistration) a {
+		font-size: 18px;
+		width: 98px;
 		padding: 0 20px;
 	}
 
@@ -818,7 +822,7 @@ hr {
 	}
 
 	.sectionOrganizers .contentSection .item {
-		margin-bottom: 35px;
+		margin: 0 auto 35px auto;
 	}
 
 	.sectionSocial .contentSection a {
