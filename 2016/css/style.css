@@ -576,7 +576,7 @@ address {
 	margin-top: 60px;
 }
 
-#mapCanvas {
+.mapCanvas {
 	height: 500px;
 }
 
@@ -700,7 +700,7 @@ address {
 		line-height: 36px;
 		width: 190px;
 	}
-	#mapCanvas {
+	.mapCanvas {
 		height: 300px;
 	}
 }
@@ -762,7 +762,7 @@ address {
 	.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a {
 		margin: 0 12px 12px 12px;
 	}
-	#mapCanvas {
+	.mapCanvas {
 		height: 200px;
 	}
 }
