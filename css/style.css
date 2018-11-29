@@ -483,6 +483,14 @@ hr {
 	background: url('../img/social/youtube.svg') no-repeat center center;
 }
 
+.iconTelegram {
+	background: url('../img/social/telegram.svg') no-repeat center center;
+}
+
+.iconYoutube {
+	background: url('../img/social/youtube.svg') no-repeat center center;
+}
+
 .sectionSpeakers .item .dataMain {
 	flex: auto;
 }
