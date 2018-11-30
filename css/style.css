@@ -334,6 +334,7 @@ address {
 	z-index: 2;
 	background: #232323;
 	padding: 0 10px;
+	display: inline-block;
 }
 .titleSection::before {
 	content: '';
