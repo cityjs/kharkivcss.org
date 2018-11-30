@@ -265,6 +265,10 @@ address {
 	text-align: center;
 }
 
+.logo h1 {
+	padding: 0;
+}
+
 .logo a {
 	font-family: 'latoblack';
 	font-size: 139px;
@@ -325,7 +329,7 @@ address {
 	margin: 0 auto 40px auto;
 }
 
-.titleSection span {
+.titleSection .overLine {
 	position: relative;
 	z-index: 2;
 	background: #232323;
@@ -480,6 +484,7 @@ address {
 	letter-spacing: -0.25px;
 	display: inline-block;
 	vertical-align: top;
+	padding: 0;
 }
 
 .sectionSpeakers .item .dataMain .name {
@@ -490,6 +495,7 @@ address {
 	position: relative;
 	display: inline-block;
 	vertical-align: top;
+	padding: 0;
 }
 
 .sectionSpeakers .item .dataMain .name::before {
