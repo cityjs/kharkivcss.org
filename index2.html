@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="utf-8" />
+	<title>KharkivCSS</title>
+	<meta name="description" content="KharkivCSS — спільнота для Frontend/Backend розробників та дизайнерів, котрі хочуть дізнатися більше про нові і актуальні технологічні стандарти Всесвітньої павутини, обмінятися досвідом і поспілкуватися з однодумцями." />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<link href="css/style.css" rel="stylesheet" />
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBh7R-zmBG23QhpUz2qxOmJlj3tEB1EdMs" defer></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" defer integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="js/main.js" defer></script>
+
+
+	<meta name="title" content="KharkivCSS" />
+	<link rel="image_src" href="http://kharkivcss.org/img/thumbnail.png" />
+	<meta itemprop="image" content="http://kharkivcss.org/img/thumbnail.png" />
+
+	<meta property="og:title" content="KharkivCSS" />
+	<meta property="og:description" content="KharkivCSS — спільнота для Frontend/Backend розробників та дизайнерів, котрі хочуть дізнатися більше про нові і актуальні технологічні стандарти Всесвітньої павутини, обмінятися досвідом і поспілкуватися з однодумцями." />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://kharkivcss.org" />
+	<meta property="og:image" content="http://kharkivcss.org/img/thumbnail.png" />
+
+	<link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/icon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+	<link rel="manifest" href="img/icon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="img/icon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-80775456-1']);
+		_gaq.push(['_trackPageview']);
+	  
+		(function() {
+		  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+</head>
+<body>
+
+<div class="pageWrapper">
+
+	<!--**************** MAIN_MENU ****************-->
+	<nav class="mainMenu">
+		<ul>
+			<li><a href="#speakers" onClick="_gaq.push(['_trackEvent', 'Btns', 'FixedMenu', 'FMSpeakers']);">Програма</a></li>
+			<li><a href="#prevConf" onClick="_gaq.push(['_trackEvent', 'Btns', 'FixedMenu', 'FMPrevConf']);">Як це було</a></li>
+			<li class="btnRegistration"><a href="http://kharkivcss4.2event.com/" onClick="_gaq.push(['_trackEvent', 'Btns', 'Buy', 'MainMenu']);" target="_blank">Придбати квиток</a></li>
+			<li><a href="#partners" onClick="_gaq.push(['_trackEvent', 'Btns', 'FixedMenu', 'FMPartners']);">Партнери</a></li>
+			<li><a href="#location" onClick="_gaq.push(['_trackEvent', 'Btns', 'FixedMenu', 'FMLocation']);">Місце</a></li>
+		</ul>
+	</nav>
+
+	<!--****************HEADER****************-->
+	<header class="header">
+		<div class="logo"><h1><a href="/">KharkivCSS #4</a></h1></div>
+		<div class="locationHeader">
+			<address>Харків, Fabrika.space, вул.&nbsp;Благовіщенська, 1</address>
+			<time datetime="2019-04-20">20 Квітня, 2019</time>
+		</div>
+		<div class="descriptionHeader">KharkivCSS — спільнота для Frontend/Backend розробників та дизайнерів, котрі хочуть дізнатися більше про нові і актуальні технологічні стандарти Всесвітньої павутини, обмінятися досвідом і поспілкуватися з однодумцями.</div>
+	</header><!-- end #header-->
+
+	<!--****************MAIN****************-->
+	<main class="main">
+		<!--****************CONTENT****************-->
+		<div class="content">
+
+			<!--**************** SPEAKERS ****************-->
+			<section class="section sectionSpeakers" id="speakers">
+				<div class="titleSection"><h2 class="overLine">Програма</h2></div>
+				<div class="contentSection">
+
+					<div class="item alignItemsCenter">
+						<div class="dataAdditional">
+							<div class="photoIcon"><img src="img/other/start.svg" alt="Реєстрація" /></div>
+						</div>
+						<div class="dataMain">
+							<h3 class="topic">Реєстрація</h3>
+						</div>
+						<div class="time">10:00</div>
+					</div>
+
+					<div class="item">
+						<div class="dataAdditional">
+							<div class="photo"><img src="img/speakers/leaVerou.jpg" alt="Lea Verou" /></div>
+							<div class="social">
+								<a href="https://twitter.com/leaverou" class="iconTwitter" target="_blank" arial-label="Twitter Lea Verou"></a>
+								<a href="https://github.com/leaverou" class="iconGithub" target="_blank" arial-label="Github Lea Verou"></a>
+								<a href="https://instagram.com/leaverou" class="iconInstagram" target="_blank" arial-label="Instagram Lea Verou"></a>
+								<a href="https://facebook.com/leaverou" class="iconFacebook" target="_blank" arial-label="Facebook Lea Verou"></a>
+								<a href="http://dribbble.com/LeaVerou" class="iconDribble" target="_blank" arial-label="Dribble Lea Verou"></a>
+								<!-- <a href="" class="iconWeb" target="_blank" arial-label="Site"></a> -->
+								<!-- <a href="" class="iconYoutube" target="_blank" arial-label="Youtube"></a> -->
+								<!-- <a href="" class="iconLinkedin" target="_blank" arial-label="Linkedin"></a> -->
+							</div>
+						</div>
+						<div class="dataMain">
+							<!-- <div class="blockUpper">
+								<h3 class="topic">More CSS secrets</h3>
+								<span class="upper">[En]</span>
+							</div>
+							<div class="description">
+								<p>Lea is currently busy researching how to make web programming easier at MIT CSAIL. She is the author of bestselling advanced CSS book CSS Secrets and has worked as a Developer Advocate at W3C.</p>
+							</div> -->
+							<div class="blockUpper">
+								<h3 class="topic">Lea Verou</h3>
+								<span class="upper">[Greece]</span>
+							</div>
+							<div class="info">
+								<p>Автор бестселера передової книги <a href="http://shop.oreilly.com/product/0636920031123.do" target="_blank">CSS Secrets</a>. Працювала розробником-адвокатом <a href="http://w3.org" target="_blank">W3C</a>. Має давню пристрасть до відкритих веб-стандартів і є однією з небагатьох запрошених експертів у <a href="http://www.w3.org/Style/CSS/members.en.php3" target="_blank">CSS Working Group</a>.</p>
+								<p>Леа запустила <a href="http://github.com/leaverou" target="_blank">кілька популярних open source проектів та веб-додатків</a>, таких як <a href="https://mavo.io" target="_blank">Mavo</a>, <a href="http://prismjs.com" target="_blank">Prism</a> та <a href="http://leaverou.github.io/prefixfree/" target="_blank">-prefix-free</a>, веде технічний блог <a href="http://lea.verou.me" target="_blank">lea.verou.me</a>. Має ступінь магістра в галузі комп'ютерних наук MIT. Незважаючи на її наукові заняття в області комп'ютерних наук, Леа з тих, хто полюбляє код і дизайн однаково.</p>
+								<p>Зараз Леа займається дослідженнями, як спростити веб-програмування в <a href="http://csail.mit.edu" target="_blank">MIT CSAIL</a>.</p>
+							</div>
+						</div>
+						<div class="time">11:00</div>
+					</div>
+					<div class="item">
+						<div class="dataAdditional">
+							<div class="photo"><img src="img/speakers/chrisLilley.jpg" alt="Chris Lilley" /></div>
+							<div class="social">
+								<a href="https://www.w3.org/People/chris/" class="iconWeb" target="_blank" arial-label="Site Chris Lilley"></a><!-- https://svgees.us/ -->
+								<a href="https://en.wikipedia.org/wiki/Chris_Lilley_(computer_scientist)" class="iconWikipedia" target="_blank" arial-label="Wiki page Chris Lilley"></a>
+							</div>
+						</div>
+						<div class="dataMain">
+							<!-- <div class="blockUpper">
+								<h3 class="topic">Доступность в веб</h3>
+								<span class="upper">[En]</span>
+							</div>
+							<div class="description">
+								<p>Lea is currently busy researching how to make web programming easier at MIT CSAIL. She is the author of bestselling advanced CSS book CSS Secrets and has worked as a Developer Advocate at W3C.</p>
+							</div> -->
+							<div class="blockUpper">
+								<h3 class="topic">Chris Lilley</h3>
+								<span class="upper">[France]</span>
+							</div>
+							<div class="info">
+								Технічний директор <a href="http://www.w3.org/" target="_blank">World Wide Web Consortium</a>(W3C). Будучи "батьком <a href="https://www.w3.org/Graphics/SVG/" target="_blank">SVG</a>", він також є співавтором <a href="https://www.w3.org/Graphics/PNG/" target="_blank">PNG</a>, був співредактором CSS2, очолював групу, яка розробляла @font-face, і спільно розробляв <a href="https://www.w3.org/TR/2012/REC-WOFF-20121213/" target="_blank">WOFF</a>. Був членом W3C Technical Architecture Group. В даний час працює на CSS рiвнях 3/4/5, Web Audio та <a href="https://www.w3.org/TR/WOFF2/" target="_blank">WOFF2</a>.
+							</div>
+						</div>
+						<div class="time"></div>
+					</div>
+
+					<!-- <div class="item alignItemsCenter">
+						<div class="dataAdditional">
+							<div class="photoIcon"><img src="img/other/coffeebreak.svg" alt="Перерва" /></div>
+						</div>
+						<div class="dataMain">
+							<h3 class="topic">Перерва</h3>
+						</div>
+						<div class="time"></div>
+					</div> -->
+
+					<div class="item">
+						<div class="dataAdditional">
+							<div class="photo"><img src="img/speakers/antonNemtsev.jpg" alt="Антон Немцев" /></div>
+							<div class="social">
+								<a href="https://github.com/silentimp" class="iconGithub" target="_blank" arial-label="Github Антон Немцев"></a>
+								<a href="https://twitter.com/silentimp" class="iconTwitter" target="_blank" arial-label="Twitter Антон Немцев"></a>
+								<a href="https://t.me/silentimp" class="iconTelegram" target="_blank" arial-label="Telegram Антон Немцев"></a>
+								<a href="https://silentimp.info/" class="iconWeb" target="_blank" arial-label="Site Антон Немцев"></a>
+							</div>
+						</div>
+						<div class="dataMain">
+							<!-- <div class="blockUpper">
+								<h3 class="topic">Доступность в веб</h3>
+								<span class="upper">[En]</span>
+							</div>
+							<div class="description">
+								<p>Lea is currently busy researching how to make web programming easier at MIT CSAIL. She is the author of bestselling advanced CSS book CSS Secrets and has worked as a Developer Advocate at W3C.</p>
+							</div> -->
+							<div class="blockUpper">
+								<h3 class="topic">Антон Немцев</h3>
+								<span class="upper">[Україна]</span>
+							</div>
+							<div class="info">
+								<p>
+									З 2000 по 2016 р.р був незалежним розробником. Продався корпораціям.<br />
+									Володіє повним стеком технологій, необхідних для розробки веб-проектів.<br />
+									Засновник і редактор електронного журналу <a href="https://frontender.info/" target="_blank">Frontender Magazine</a>.
+								</p>
+								<p>
+									Представник організації <a href="https://web-standards.ru/" target="_blank">Web Standards</a> в Україні.<br />
+									Доповідач на міжнародних і локальних конференціях веб-розробників.
+									Експерт на чемпіонаті UA Web Challenge.
+									Волшебный говорящий медведь проститутка &copy;
+								</p>
+							</div>
+						</div>
+						<div class="time"></div>
+					</div>
+					
+					<div class="item">
+						<div class="dataAdditional">
+							<div class="photo"><img src="img/speakers/dimaPopov.jpg" alt="Дмитро Попов" /></div>
+							<div class="social">
+								<a href="https://www.facebook.com/popov.dmytro" class="iconFacebook" target="_blank" arial-label="Facebook Дмитро Попов"></a>
+							</div>
+						</div>
+						<div class="dataMain">
+							<!-- <div class="blockUpper">
+								<h3 class="topic">Доступность в веб</h3>
+								<span class="upper">[En]</span>
+							</div>
+							<div class="description">
+								<p>Lea is currently busy researching how to make web programming easier at MIT CSAIL. She is the author of bestselling advanced CSS book CSS Secrets and has worked as a Developer Advocate at W3C.</p>
+							</div> -->
+							<div class="blockUpper">
+								<h3 class="topic">Дмитро Попов</h3>
+								<span class="upper">[Україна]</span>
+							</div>
+							<div class="info">
+								<p>Більше 10 років займається питаннями доступності веб-технологій для людей з порушенням зору. Працював над підвищенням доступності сайту <a href="https://www.uz.gov.ua/" target="_blank">Укрзалізниці</a>. Тестував на доступність сайти ЦОВ в рамках проекту "Детектор веб-доступності".</p>
+							</div>
+						</div>
+						<div class="time"></div>
+					</div>
+
+					<!-- <div class="item alignItemsCenter">
+						<div class="dataAdditional">
+							<div class="photoIcon"><img src="img/other/coffeebreak.svg" alt="Перерва" /></div>
+						</div>
+						<div class="dataMain">
+							<h3 class="topic">Перерва</h3>
+						</div>
+						<div class="time"></div>
+					</div> -->
+
+					<div class="item">
+						<div class="dataAdditional">
+							<div class="photo"><img src="img/speakers/nikitaDubko.jpg" alt="Микита Дубко" /></div>
+							<div class="social">
+								<a href="https://twitter.com/dark_mefody" class="iconTwitter" target="_blank" arial-label="Twitter Микита Дубко"></a>
+								<a href="https://github.com/MeFoDy" class="iconGithub" target="_blank" arial-label="Github Микита Дубко"></a>
+							</div>
+						</div>
+						<div class="dataMain">
+							<!-- <div class="blockUpper">
+								<h3 class="topic">Доступность в веб</h3>
+								<span class="upper">[En]</span>
+							</div>
+							<div class="description">
+								<p>Lea is currently busy researching how to make web programming easier at MIT CSAIL. She is the author of bestselling advanced CSS book CSS Secrets and has worked as a Developer Advocate at W3C.</p>
+							</div> -->
+							<div class="blockUpper">
+								<h3 class="topic">Микита Дубко</h3>
+								<span class="upper">[Мінськ]</span>
+							</div>
+							<div class="info">
+								<p>Адепт філософії Pure CSS Images. Співорганізатор MinskCSS, MinskJS, <a href="https://css-minsk-js.by/" target="_blank">CSS-Minsk-JS</a>. Доброжелюбний бородань в повному розквіті сил.</p>
+							</div>
+						</div>
+						<div class="time"></div>
+					</div>
+					<div class="item">
+						<div class="dataAdditional">
+							<div class="photo"><img src="img/speakers/denisYarovoi.jpg" alt="Денис Яровий" /></div>
+							<div class="social">
+								
+							</div>
+						</div>
+						<div class="dataMain">
+							<!-- <div class="blockUpper">
+								<h3 class="topic">Доступность в веб</h3>
+								<span class="upper">[En]</span>
+							</div>
+							<div class="description">
+								<p>Lea is currently busy researching how to make web programming easier at MIT CSAIL. She is the author of bestselling advanced CSS book CSS Secrets and has worked as a Developer Advocate at W3C.</p>
+							</div> -->
+							<div class="blockUpper">
+								<h3 class="topic">Денис Яровий</h3>
+								<span class="upper">[Україна]</span>
+							</div>
+							<div class="info">
+								<p></p>
+							</div>
+						</div>
+						<div class="time"></div>
+					</div>
+
+					<!-- <div class="item alignItemsCenter">
+						<div class="dataAdditional">
+							<div class="photoIcon"><img src="img/other/coffeebreak.svg" alt="Перерва" /></div>
+						</div>
+						<div class="dataMain">
+							<h3 class="topic">Перерва</h3>
+						</div>
+						<div class="time"></div>
+					</div> -->
+
+					<div class="item alignItemsCenter">
+						<div class="dataAdditional">
+							<div class="photo"><img src="img/speakers/ninja.svg" alt="Спікера буде скоро добавлено" /></div>
+						</div>
+						<div class="dataMain">
+							<h3 class="topic">Буде опубліковано 12 грудня</h3>
+						</div>
+						<div class="time"></div>
+					</div>
+					<div class="item alignItemsCenter">
+						<div class="dataAdditional">
+							<div class="photo"><img src="img/speakers/empty.svg" alt="Спікера буде скоро добавлено" /></div>
+						</div>
+						<div class="dataMain">
+							<h3 class="topic">Вільний слот</h3>
+						</div>
+						<div class="time"></div>
+					</div>
+
+					<div class="item alignItemsCenter">
+						<div class="dataAdditional">
+							<div class="photoIcon"><img src="img/other/finish.svg" alt="Закриття конференції" /></div>
+						</div>
+						<div class="dataMain">
+							<h3 class="topic">Закриття конференції</h3>
+						</div>
+						<div class="time">19:45</div>
+					</div>
+
+				</div>
+			</section>
+
+			<!--**************** PREV_CONF ****************-->
+			<section class="section sectionPrevConf" id="prevConf">
+				<div class="titleSection"><h2 class="overLine">Як це було</h2></div>
+				<div class="contentSection">
+					<iframe width="1200" height="676" src="https://www.youtube.com/embed/YvxqvWRex6M?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</section>
+
+			<!--**************** PARTNERS ****************-->
+			<section class="section sectionPartners" id="partners">
+			<!-- <section class="section sectionText" id="partners"> -->
+				<div class="titleSection"><h2 class="overLine">Партнери</h2></div>
+				<div class="contentSection">
+					<!-- Bronze -->
+					<a href="#contacts" style="font-size: 40px; text-align: center; display: block;">Стати партнером</a>
+					<!--<div class="categoryPartners">
+						<div class="titleGold">Gold</div>
+						<div class="contentCategoryPartners">
+							<a href="https://pics.io/" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'Picsio']);" target="_blank"><img src="img/partners/picsio.png" alt="Золотий партнер Pics.io" style="width: 280px;" /></a>
+						</div>
+					</div>
+					<div class="categoryPartners">
+						<div class="titleSilver">Silver</div>
+						<div class="contentCategoryPartners">
+							<a href="http://markupus.com/" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'Markupus']);" target="_blank"><img src="img/partners/markupus.png" alt="Серебристий партнер Markupus" style="width: 350px;" /></a>
+							<br />
+							<a href="http://www.dev-pro.net/" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'Devpro']);" target="_blank"><img src="img/partners/devpro.jpg" alt="Серебристий партнер Devpro" style="width: 400px;" /></a>
+						</div>
+					</div> -->
+				</div>
+			</section>
+
+			<!--**************** ORGANIZERS ****************-->
+			<section class="section sectionOrganizers" id="contacts">
+				<div class="titleSection"><h2 class="overLine">Контакти</h2></div>
+				<div class="contentSection">
+					<div class="item">
+						<div class="photo"><img src="img/speakers/volodymyrMakukha.jpg" alt="Володимир Макуха" /></div>
+						<div class="social">
+							<a href="https://www.facebook.com/NightNei" class="iconFacebook" target="_blank" arial-label="Facebook Володимир Макуха"></a>
+							<a href="https://twitter.com/NightNei" class="iconTwitter" target="_blank" arial-label="Twitter Володимир Макуха"></a>
+						</div>
+						<div class="name">Володимир Макуха</div>
+						<div class="email">nei.css@gmail.com</div>
+					</div>
+					<div class="item">
+						<div class="photo"><img src="img/speakers/valerieLyalina.jpg" alt="Валерiя Лялiна" /></div>
+						<div class="social">
+							<a href="https://www.facebook.com/valeria.lialina" class="iconFacebook" target="_blank" arial-label="Facebook Валерiя Лялiна"></a>
+							<a href="https://www.linkedin.com/in/valeria-lyalina-b5144173" class="iconLinkedin" target="_blank" arial-label="Linkedin Валерiя Лялiна"></a>
+						</div>
+						<div class="name">Валерiя Лялiна</div>
+						<div class="email">hi.valeriia@gmail.com</div>
+					</div>
+				</div>
+			</section>
+
+			<!--**************** SOCIAL ****************-->
+			<section class="section sectionSocial">
+				<div class="titleSection"><h2 class="overLine">Слідкувати та готуватися</h2></div>
+				<div class="contentSection">
+					<a href="https://www.facebook.com/KharkivCSS" onClick="_gaq.push(['_trackEvent', 'Btns', 'Social', 'FB']);" target="_blank"><img src="img/social/facebook.png" alt="Facebook конференії" /></a>
+					<a href="https://www.youtube.com/c/KharkivCSSConf" onClick="_gaq.push(['_trackEvent', 'Btns', 'Social', 'YT']);" target="_blank"><img src="img/social/youtube.png" alt="Youtube конференії" /></a>
+					<a href="https://twitter.com/KharkivCSS" onClick="_gaq.push(['_trackEvent', 'Btns', 'Social', 'TW']);" target="_blank"><img src="img/social/twitter.png" alt="Еwitter конференії" /></a>
+				</div>
+			</section>
+
+			<!--**************** LOCATION ****************-->
+			<section class="section sectionLocation" id="location">
+				<div class="titleSection"><h2 class="overLine">Місце</h2></div>
+				<div class="contentSection">
+					<address>Харків, Fabrika.space, вул.&nbsp;Благовіщенська,&nbsp;1</address>
+					<time datetime="2019-04-20">20 Квітня, 2019</time> <br />
+				</div>
+			</section>
+
+			<!--**************** MAP ****************-->
+			<section class="section sectionMap">
+				<div class="mapCanvas"></div>
+			</section>
+
+		</div><!-- end #content-->
+	</main><!-- end #main-->
+
+	<!-- <footer class="footer">
+		<div class="footMenu">
+			<ul>
+				<li><a href="/2016" onClick="_gaq.push(['_trackEvent', 'Btns', 'FootMenu', '2016']);">2016</a></li>
+				<li><a href="/2017" onClick="_gaq.push(['_trackEvent', 'Btns', 'FootMenu', '2017']);">2017</a></li>
+				<li><a href="/2018" onClick="_gaq.push(['_trackEvent', 'Btns', 'FootMenu', '2018']);">2018</a></li>
+				<li><a href="/" onClick="_gaq.push(['_trackEvent', 'Btns', 'FootMenu', '2019']);">2019</a></li>
+			</ul>
+		</div>
+	</footer> -->
+</div><!-- end #all-->
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-80775456-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+</body>
+</html>
