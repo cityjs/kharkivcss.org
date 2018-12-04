@@ -1,23 +1,23 @@
 @font-face {
 	font-family: 'latolight';
-	src: url('../fonts/lato-light-webfont.woff2') format('woff2'),
-		 url('../fonts/lato-light-webfont.woff') format('woff');
+	src: url('../../fonts/lato-light-webfont.woff2') format('woff2'),
+		 url('../../fonts/lato-light-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'latoblack';
-	src: url('../fonts/lato-black-webfont.woff2') format('woff2'),
-		 url('../fonts/lato-black-webfont.woff') format('woff');
+	src: url('../../fonts/lato-black-webfont.woff2') format('woff2'),
+		 url('../../fonts/lato-black-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'latothin';
-	src: url('../fonts/lato-thin-webfont.woff2') format('woff2'),
-		 url('../fonts/lato-thin-webfont.woff') format('woff');
+	src: url('../../fonts/lato-thin-webfont.woff2') format('woff2'),
+		 url('../../fonts/lato-thin-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -125,7 +125,7 @@ address {
 	font-style: normal;
 }
 
-#all {
+.pageWrapper {
 	height: 100%;
 	width: 100%;
 }
@@ -171,7 +171,7 @@ address {
 /******HEADER*****/
 /*****************/
 
-#header {
+.header {
 	padding: 150px 0 650px 0;
 	background: url('../img/header2.svg') no-repeat center bottom;
 	background-size: auto 825px;
@@ -305,7 +305,7 @@ address {
 	z-index: 2;
 }
 
-#header .btnRegistration {
+.header .btnRegistration {
 	margin-top: 30px;
 }
 
@@ -313,11 +313,11 @@ address {
 /*****CONTENT*****/
 /*****************/
 
-#main {
+.main {
 
 }
 
-#content {
+.content {
 
 }
 
@@ -581,11 +581,11 @@ address {
 }
 
 /*****FOOTER*****/
-#footer {
+.footer {
 	
 }
 
-#footer .footMenu ul {
+.footer .footMenu ul {
 	color: blue;
 	list-style-type: none;
 	margin: 0;
@@ -594,12 +594,12 @@ address {
 	justify-content: center;
 }
 
-#footer .footMenu ul li {
+.footer .footMenu ul li {
 	margin: 0;
 	padding: 20px;
 }
 
-#footer .footMenu ul li a {
+.footer .footMenu ul li a {
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -610,7 +610,7 @@ address {
 	body {
 		font-size: 15px;
 	}
-	#header {
+	.header {
 		padding: 75px 0 300px 0;
 		background-size: auto 412px;
 		margin-bottom: -115px;
@@ -706,7 +706,7 @@ address {
 }
 
 @media screen and (max-width: 767px) {
-	#header {
+	.header {
 		padding: 75px 0 260px 0;
 		background-size: auto 360px;
 		margin-bottom: -105px;
