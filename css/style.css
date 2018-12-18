@@ -1,47 +1,44 @@
 @font-face {
-	font-family: 'latolight';
-	src: url('../fonts/lato-light-webfont.woff2') format('woff2'),
-		 url('../fonts/lato-light-webfont.woff') format('woff');
-	font-display: auto;
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'latoblack';
-	src: url('../fonts/lato-black-webfont.woff2') format('woff2'),
-		 url('../fonts/lato-black-webfont.woff') format('woff');
-	font-display: auto;
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'latothin';
+	font-family: 'lato';
 	src: url('../fonts/lato-thin-webfont.woff2') format('woff2'),
 		 url('../fonts/lato-thin-webfont.woff') format('woff');
 	font-display: auto;
-	font-weight: normal;
-	font-style: normal;
+	font-weight: 100;
 }
 
 @font-face {
-	font-family: 'latobold';
-	src: url('../fonts/lato-bold-webfont.woff2') format('woff2'),
-		 url('../fonts/lato-bold-webfont.woff') format('woff');
+	font-family: 'lato';
+	src: url('../fonts/lato-light-webfont.woff2') format('woff2'),
+		 url('../fonts/lato-light-webfont.woff') format('woff');
 	font-display: auto;
-	font-weight: normal;
-	font-style: normal;
+	font-weight: 300;
 }
 
 @font-face {
-	font-family: 'latoregular';
+	font-family: 'lato';
 	src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),
 		 url('../fonts/lato-regular-webfont.woff') format('woff');
 	font-display: auto;
-	font-weight: normal;
-	font-style: normal;
+	font-weight: 400;
 }
+
+@font-face {
+	font-family: 'lato';
+	src: url('../fonts/lato-bold-webfont.woff2') format('woff2'),
+		 url('../fonts/lato-bold-webfont.woff') format('woff');
+	font-display: auto;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'lato';
+	src: url('../fonts/lato-black-webfont.woff2') format('woff2'),
+		 url('../fonts/lato-black-webfont.woff') format('woff');
+	font-display: auto;
+	font-weight: 900;
+}
+
+
 
 input {
 	-webkit-appearance: none;
@@ -63,7 +60,8 @@ input[type="submit"]::-moz-focus-inner {border: none;}
 html, body{height:100%; width:100%; margin:0; padding:0;}
 
 body {
-	font-family: 'latolight', sans-serif;
+	font-family: 'lato', Arial, sans-serif;
+	font-weight: 300;
 	font-size: 20px;
 	color: #ddd;
 	line-height: 1.3;
@@ -95,7 +93,7 @@ a:hover {
 }
 
 h1, h2, h3, h4 {
-	font-weight: normal;
+	font-weight: 800;
 	margin: 0;
 	padding: 0 0 1em 0;
 }
@@ -152,7 +150,7 @@ address {
 }
 
 .textHighlight {
-	font-family: 'latobold', sans-serif;
+	font-weight: 700;
 	background: #ccc;
 	color: #000;
 	height: 24px;
@@ -174,7 +172,7 @@ address {
 	background: #009933;
 	box-shadow: rgba(0,0,0,0.15) 0 3px 5px;
 	border-radius: 5px;
-	font-family: 'latobold', sans-serif;
+	font-weight: 700;
 	font-size: 30px;
 	color: #fff;
 	height: 2.2em;
@@ -231,7 +229,7 @@ address {
 	line-height: 86px;
 	display: block;
 	padding: 0 35px;
-	font-family: 'latoregular', sans-serif;
+	font-weight: 400;
 	width: 120px;
 	text-align: center;
 }
@@ -270,7 +268,7 @@ address {
 }
 
 .logo a {
-	font-family: 'latoblack', sans-serif;
+	font-weight: 900;
 	font-size: 139px;
 	color: #fff;
 	text-decoration: none;
@@ -290,7 +288,7 @@ address {
 	max-width: 620px;
 	margin: 0 auto;
 	text-align: center;
-	font-family: 'latoblack', sans-serif;
+	font-weight: 900;
 	font-size: 30px;
 	color: #fff;
 	letter-spacing: -0.25px;
@@ -319,7 +317,7 @@ address {
 }
 
 .titleSection {
-	font-family: 'latoblack', sans-serif;
+	font-weight: 900;
 	font-size: 60px;
 	color: #fff;
 	text-align: center;
@@ -469,7 +467,7 @@ address {
 }
 
 .sectionSpeakers .item .dataMain .blockUpper .upper {
-	font-family: 'latolight', sans-serif;
+	font-weight: 300;
 	font-size: 20px;
 	color: #fff;
 	display: inline-block;
@@ -479,7 +477,7 @@ address {
 }
 
 .sectionSpeakers .item .dataMain .topic {
-	font-family: 'latoblack', sans-serif;
+	font-weight: 900;
 	font-size: 30px;
 	color: #fff;
 	letter-spacing: -0.25px;
@@ -491,7 +489,7 @@ address {
 .sectionSpeakers .item .dataMain .name {
 	font-size: 24px;
 	color: #fff;
-	font-family: 'latobold', sans-serif;
+	font-weight: 700;
 	letter-spacing: -0.25px;
 	position: relative;
 	display: inline-block;
@@ -502,7 +500,7 @@ address {
 .sectionSpeakers .item .dataMain .name::before {
 	content: '—';
 	font-size: 24px;
-	font-family: 'latobold', sans-serif;
+	font-weight: 700;
 	position: absolute;
 	right: 100%;
 	top: 0;
@@ -521,7 +519,7 @@ address {
 .sectionSpeakers .item .time {
 	flex: 0 0 200px;
 	text-align: right;
-	font-family: 'latoblack', sans-serif;
+	font-weight: 900;
 	font-size: 36px;
 	color: #fff;
 	text-align: right;
@@ -585,7 +583,7 @@ address {
 }
 
 .sectionOrganizers .contentSection .item .name {
-	font-family: 'latobold', sans-serif;
+	font-weight: 700;
 	font-size: 24px;
 	color: #fff;
 	text-align: center;
@@ -614,14 +612,14 @@ address {
 }
 
 .sectionPartners .contentSection .categoryPartners .titleGold {
-	font-family: 'latoblack', sans-serif;
+	font-weight: 900;
 	font-size: 50px;
 	color: #fff;
 	text-align: center;
 }
 
 .sectionPartners .contentSection .categoryPartners .titleSilver {
-	font-family: 'latoblack', sans-serif;
+	font-weight: 900;
 	font-size: 40px;
 	color: #fff;
 	text-align: center;
