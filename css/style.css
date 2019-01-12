@@ -481,7 +481,7 @@ address {
 	font-size: 30px;
 	color: #fff;
 	letter-spacing: -0.25px;
-	display: inline-block;
+	display: inline;
 	vertical-align: top;
 	padding: 0;
 }
@@ -492,7 +492,7 @@ address {
 	font-weight: 700;
 	letter-spacing: -0.25px;
 	position: relative;
-	display: inline-block;
+	display: inline;
 	vertical-align: top;
 	padding: 0;
 }
@@ -642,11 +642,16 @@ address {
 	display: flex;
 	align-items: center;
 	color: #fff;
+	margin-bottom: 40px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .qs img {
 	width: 140px;
 	margin-right: 25px;
+}
+
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .dataart img {
+	width: 500px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners a {
