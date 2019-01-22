@@ -616,6 +616,7 @@ address {
 	font-size: 50px;
 	color: #fff;
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 .sectionPartners .contentSection .categoryPartners .titleSilver {
@@ -623,41 +624,60 @@ address {
 	font-size: 40px;
 	color: #fff;
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners {
-	display: flex;
-	flex-direction: column;
-	
-	align-items: center;
 	padding-bottom: 30px;
 }
 
+.linePartners {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .devPro img {
+	width: 550px;
+}
+
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .markupus img {
-	width: 500px;
+	width: 400px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .qs {
-	font: 50px/1 Helvetica,Arial,Sans-serif;
-	display: flex;
+	font: 40px/1 Helvetica,Arial,Sans-serif;
+	display: inline-flex;
 	align-items: center;
 	color: #fff;
 	margin-bottom: 40px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .qs img {
-	width: 140px;
-	margin-right: 25px;
+	width: 120px;
+	margin-right: 20px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .dataart img {
-	width: 500px;
+	width: 400px;
+}
+
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .teamInternational img {
+	width: 280px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners a {
-	display: block;
+	width: 50%;
 	margin: 0 27px 27px 27px;
 	transition: all .15s linear;
+}
+
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a:first-child {
+	text-align: right;
+}
+
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a:last-child {
+	text-align: left;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners a:hover {
@@ -791,6 +811,13 @@ address {
 		font-size: 110px;
 	}
 
+	.linePartners {
+		flex-direction: column;
+	}
+	.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a {
+		width: auto;
+	}
+
 	.sectionSpeakers .item {
 		flex-direction: column;
 	}
@@ -885,6 +912,24 @@ address {
 	.titleSection {
 		font-size: 25px;
 		margin-bottom: 20px;
+	}
+
+	.sectionPartners .contentSection .categoryPartners .titleGold {
+		font-size: 20px;
+	}
+	
+	.sectionPartners .contentSection .categoryPartners .titleSilver {
+		font-size: 20px;
+	}
+
+	.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .qs {
+		font: 32px/1 Helvetica,Arial,Sans-serif;
+		margin-bottom: 40px;
+	}
+	
+	.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .qs img {
+		width: 90px;
+		margin-right: 10px;
 	}
 
 	.sectionOrganizers .contentSection {
