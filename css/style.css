@@ -666,10 +666,19 @@ address {
 	width: 300px;
 }
 
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .kharkivFrontend img {
+	width: 200px;
+}
+
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners a {
 	width: 50%;
 	margin: 0 27px 27px 27px;
 	transition: all .15s linear;
+}
+
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners a {
+	width: 33%;
+	text-align: center;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners a:first-child {
@@ -678,6 +687,10 @@ address {
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners a:last-child {
 	text-align: left;
+}
+
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a:last-child:first-child {
+	text-align: center;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners a:hover {
