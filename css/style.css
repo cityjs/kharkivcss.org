@@ -674,6 +674,10 @@ address {
 	width: 130px;
 }
 
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .jSfwdays img {
+	margin: 0 -50px;
+}
+
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners a {
 	width: 50%;
 	margin: 0 27px 27px 27px;
@@ -681,8 +685,9 @@ address {
 }
 
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners a {
-	width: 33%;
+	width: 22%;
 	text-align: center;
+	margin: 0 10px 27px 10px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners a:first-child {
