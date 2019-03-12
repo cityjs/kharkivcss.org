@@ -678,6 +678,15 @@ address {
 	margin: 0 -50px;
 }
 
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .ITVDN {
+	overflow: hidden;
+}
+
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .ITVDN img {
+	margin: -60px 0 -40px 0;
+}
+
+
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners a {
 	width: 50%;
 	margin: 0 27px 27px 27px;
