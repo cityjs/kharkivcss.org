@@ -506,14 +506,17 @@ address {
 	top: 0;
 }
 
-.sectionSpeakers .item .dataMain .description,
-.sectionSpeakers .item .dataMain .info {
+.sectionSpeakers .item .dataMain .description {
 	padding-bottom: 0.8em;
 }
 
 .sectionSpeakers .item .dataMain .description p,
 .sectionSpeakers .item .dataMain .info p {
 	padding-bottom: 0.5em;
+}
+
+.sectionSpeakers .item .dataMain .info p:last-child {
+	padding-bottom: 0;
 }
 
 .sectionSpeakers .item .time {
@@ -637,6 +640,21 @@ address {
 	align-items: center;
 }
 
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a {
+	margin: 0 27px 27px 27px;
+	transition: all .15s linear;
+}
+
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners a img {
+	height: 130px;
+}
+
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a:hover {
+	transform: scale(1.05);
+}
+
+
+/****** START PARTNERS ******/
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .devPro img {
 	width: 550px;
 }
@@ -666,57 +684,27 @@ address {
 	width: 300px;
 }
 
-.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .kharkivFrontend img {
-	width: 200px;
-}
-
-.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .chernivtsiJS img {
-	width: 130px;
-}
-
-.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .jSfwdays img {
-	margin: 0 -50px;
-}
-
-.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .ITVDN {
-	overflow: hidden;
-}
-
-.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .ITVDN img {
-	margin: -60px 0 -40px 0;
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .intellias img {
+	width: 350px;
+	padding: 40px 0;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .intellias img {
 	width: 350px;
 	padding: 40px 0;
 }
-.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a {
-	width: 50%;
-	margin: 0 27px 27px 27px;
-	transition: all .15s linear;
+
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .ITVDN img {
+	height: 150px;
+}
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .WeeklyIT img {
+	height: 90px;
 }
 
-.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners a {
-	width: 22%;
-	text-align: center;
-	margin: 0 10px 27px 10px;
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .CBS img {
+	height: 60px;
 }
 
-.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a:first-child {
-	text-align: right;
-}
-
-.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a:last-child {
-	text-align: left;
-}
-
-.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a:last-child:first-child {
-	text-align: center;
-}
-
-.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a:hover {
-	transform: scale(1.05);
-}
 
 
 /****************/
