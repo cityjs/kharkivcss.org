@@ -640,12 +640,14 @@ address {
 	align-items: center;
 }
 
-.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a {
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a,
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners span {
 	margin: 0 27px 27px 27px;
 	transition: all .15s linear;
 }
 
-.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners a img {
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners a img,
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners span img {
 	height: 130px;
 }
 
@@ -711,6 +713,10 @@ address {
 
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .Easycode img {
 	height: 105px;
+}
+
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .Zhytomyr img {
+	height: 95px;
 }
 
 
