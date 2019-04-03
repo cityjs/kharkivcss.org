@@ -679,21 +679,20 @@ address {
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .dataart img {
-	width: 400px;
+	height: 63px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .teamInternational img {
-	width: 300px;
+	height: 125px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .intellias img {
-	width: 350px;
+	height: 60px;
 	padding: 40px 0;
 }
 
-.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .intellias img {
-	width: 350px;
-	padding: 40px 0;
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .svitla img {
+	height: 90px;
 }
 
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .ITVDN img {
@@ -718,7 +717,6 @@ address {
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .Zhytomyr img {
 	height: 95px;
 }
-
 
 /****************/
 /*****SOCIAL*****/
@@ -797,6 +795,10 @@ address {
 	cursor: pointer;
 }
 
+.footer .codeOfConduct {
+	text-align: center;
+	padding-bottom: 20px;
+}
 
 /*****************/
 /*CODE_OF_CONDUCT*/
