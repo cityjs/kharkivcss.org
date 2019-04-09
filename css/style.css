@@ -742,7 +742,7 @@ address {
 	overflow: hidden;
 }
 
-.sectionSocial .contentSection a:nth-child(2) {
+.sectionSocial .contentSection a:nth-child(even) {
 	position: relative;
 	z-index: 2;
 }
@@ -753,6 +753,7 @@ address {
 
 .sectionSocial .contentSection a img {
 	display: block;
+	height: 154px;
 }
 
 
