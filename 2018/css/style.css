@@ -596,7 +596,7 @@ address {
 
 .footer .footMenu ul li {
 	margin: 0;
-	padding: 20px;
+	padding: 20px 10px;
 }
 
 .footer .footMenu ul li a {
