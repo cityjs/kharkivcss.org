@@ -987,7 +987,7 @@ address {
 		margin: 0 auto;
 	}
 	.sectionSocial .contentSection a {
-		margin: 0 -13px;
+		margin: 0 -13px -13px -13px;
 	}
 	.sectionSocial .contentSection a img {
 		height: 115px;
