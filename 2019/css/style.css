@@ -982,11 +982,15 @@ address {
 		margin: 0 auto 35px auto;
 	}
 
+	.sectionSocial {
+		width: 270px;
+		margin: 0 auto;
+	}
 	.sectionSocial .contentSection a {
 		margin: 0 -13px;
 	}
 	.sectionSocial .contentSection a img {
-		width: 115px;
+		height: 115px;
 	}
 
 	.sectionLocation .contentSection {
