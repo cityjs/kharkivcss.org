@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>KharkivCSS</title>
-	<meta name="description" content="KharkivCSS — спільнота для Frontend/Backend розробників та дизайнерів, котрі хочуть дізнатися більше про нові і актуальні технологічні стандарти Всесвітньої павутини, обмінятися досвідом і поспілкуватися з однодумцями." />
+	<meta name="description" content="Partners | Конференція для web-розробників(JS, Frontend, Backend)" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -12,13 +12,12 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" defer integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<script src="js/main.js" defer></script>
 
-
 	<meta name="title" content="KharkivCSS" />
 	<link rel="image_src" href="http://kharkivcss.org/img/thumbnail.png" />
 	<meta itemprop="image" content="http://kharkivcss.org/img/thumbnail.png" />
 
 	<meta property="og:title" content="KharkivCSS" />
-	<meta property="og:description" content="KharkivCSS — спільнота для Frontend/Backend розробників та дизайнерів, котрі хочуть дізнатися більше про нові і актуальні технологічні стандарти Всесвітньої павутини, обмінятися досвідом і поспілкуватися з однодумцями." />
+	<meta property="og:description" content="Partners | Конференція для web-розробників(JS, Frontend, Backend)" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://kharkivcss.org" />
 	<meta property="og:image" content="http://kharkivcss.org/img/thumbnail.png" />
@@ -54,22 +53,23 @@
 	<!--**************** MAIN_MENU ****************-->
 	<nav class="mainMenu">
 		<ul>
-			<li><a href="#speakers" onClick="_gaq.push(['_trackEvent', 'Btns', 'FixedMenu', 'FMSpeakers']);">Програма</a></li>
+			<!-- <li><a href="http://kharkivcss.org" target="_blank" onClick="_gaq.push(['_trackEvent', 'Btns', 'FixedMenu', 'FMHomeFromPartners']);">Сайт</a></li> -->
+			<li><a href="#prevConf" onClick="_gaq.push(['_trackEvent', 'Btns', 'FixedMenu', 'FMAboutPartnership']);">Інформація</a></li>
+			<li><a href="#prevConf" onClick="_gaq.push(['_trackEvent', 'Btns', 'FixedMenu', 'FMOptionsPartners']);">Пропозиції</a></li>
 			<li><a href="#prevConf" onClick="_gaq.push(['_trackEvent', 'Btns', 'FixedMenu', 'FMPrevConf']);">Як це було</a></li>
-			<!-- <li class="btnRegistration"><a href="https://2event.com/ru/events/1581761" onClick="_gaq.push(['_trackEvent', 'Btns', 'Buy', 'MainMenu']);" target="_blank">Придбати квиток</a></li> -->
-			<li><a href="#partners" onClick="_gaq.push(['_trackEvent', 'Btns', 'FixedMenu', 'FMPartners']);">Партнери</a></li>
-			<li><a href="#location" onClick="_gaq.push(['_trackEvent', 'Btns', 'FixedMenu', 'FMLocation']);">Місце</a></li>
+			<li><a href="#contacts" onClick="_gaq.push(['_trackEvent', 'Btns', 'FixedMenu', 'FMContacts']);">Контакти</a></li>
 		</ul>
 	</nav>
 
 	<!--****************HEADER****************-->
 	<header class="header">
+		<div class="countParticipant"><span>500</span> учасників</div>
 		<div class="logo"><h1><a href="/">KharkivCSS #5</a></h1></div>
 		<div class="locationHeader">
-			<address>Харків, Fabrika.space, вул.&nbsp;Благовіщенська,&nbsp;1</address>
-			<time datetime="2020-04-11">11 Квітня, 2020</time>
+			<address>Харків, Fabrika.space, вул.&nbsp;Благовіщенська,&nbsp;1(2-й і 3-й поверхи)</address>
+			<time datetime="2020-03-28">28 Березня, 2020</time>
 		</div>
-		<div class="descriptionHeader">KharkivCSS — спільнота для Frontend/Backend розробників та дизайнерів, котрі хочуть дізнатися більше про нові і актуальні технологічні стандарти Всесвітньої павутини, обмінятися досвідом і поспілкуватися з однодумцями.</div>
+		<div class="descriptionHeader">Конференція для web-розробників(JS, Frontend, Backend)</div>
 	</header><!-- end #header-->
 
 	<!--****************MAIN****************-->
@@ -77,314 +77,13 @@
 		<!--****************CONTENT****************-->
 		<div class="content">
 
-			<!--**************** SPEAKERS ****************-->
-			<section class="section sectionSpeakers" id="speakers">
-				<div class="titleSection"><h2 class="overLine">Програма</h2></div>
+			
+
+			<!--**************** PREV_CONF ****************-->
+			<section class="section sectionPrevConf" id="prevConf">
+				<div class="titleSection"><h2 class="overLine">Як це було</h2></div>
 				<div class="contentSection">
-					<div class="txt">Якщо в вас є бажання виступити з доповіддю на KharkivCSS 2020 — <a href="https://forms.gle/BMr4vspaLPmyyaiT9" target="_blank">Call&nbsp;for&nbsp;speakers</a></div>
-					<!-- <div class="item alignItemsCenter">
-						<div class="dataAdditional">
-							<div class="photoIcon"><img src="img/other/start.svg" alt="Реєстрація" /></div>
-						</div>
-						<div class="dataMain">
-							<h3 class="topic">Реєстрація</h3>
-						</div>
-						<div class="time">10:00</div>
-					</div>
-
-					<div class="item">
-						<div class="dataAdditional">
-							<div class="photo"><img src="img/speakers/empty.svg" alt="NAME_AND_SURNAME" /></div>
-							<div class="social">
-								<a href="https://twitter.com/leaverou" class="iconTwitter" target="_blank" arial-label="Twitter NAME_AND_SURNAME"></a>
-								<a href="https://github.com/leaverou" class="iconGithub" target="_blank" arial-label="Github NAME_AND_SURNAME"></a>
-								<a href="https://instagram.com/leaverou" class="iconInstagram" target="_blank" arial-label="Instagram NAME_AND_SURNAME"></a>
-								<a href="https://facebook.com/leaverou" class="iconFacebook" target="_blank" arial-label="Facebook NAME_AND_SURNAME"></a>
-								<a href="http://dribbble.com/LeaVerou" class="iconDribble" target="_blank" arial-label="Dribble NAME_AND_SURNAME"></a>
-								<a href="https://t.me/LeaVerou" class="iconTelegram" target="_blank" arial-label="Telegram NAME_AND_SURNAME"></a>
-								<a href="https://LeaVerou.info/" class="iconWeb" target="_blank" arial-label="Site NAME_AND_SURNAME"></a>
-								<a href="https://en.wikipedia.org/LeaVerou" class="iconWikipedia" target="_blank" arial-label="Wiki page NAME_AND_SURNAME"></a>
-								<a href="" class="iconYoutube" target="_blank" arial-label="Youtube NAME_AND_SURNAME"></a>
-								<a href="" class="iconLinkedin" target="_blank" arial-label="Linkedin NAME_AND_SURNAME"></a>
-							</div>
-						</div>
-						<div class="dataMain">
-							<div class="blockUpper">
-								<h3 class="topic">TOPIC_TITLE</h3>
-								<span class="upper">[En]</span>
-							</div>
-							<div class="description">
-								<p>TOPIC_DESCRIPTION</p>
-							</div>
-							<div class="blockUpper">
-								<h3 class="name">NAME_AND_SURNAME</h3>
-								<span class="upper">[Greece]</span>
-							</div>
-							<div class="info">
-								<p><a href="#" target="_blank">SPEAKER_DESCRIPTION</a></p>
-							</div>
-						</div>
-						<div class="time">11:00</div>
-					</div>
-
-					<div class="item alignItemsCenter">
-						<div class="dataAdditional">
-							<div class="photoIcon"><img src="img/other/coffeebreak.svg" alt="Перерва" /></div>
-						</div>
-						<div class="dataMain">
-							<h3 class="topic">Перерва</h3>
-						</div>
-						<div class="time">12:00</div>
-					</div>
-
-					<div class="item">
-						<div class="dataAdditional">
-							<div class="photo"><img src="img/speakers/empty.svg" alt="NAME_AND_SURNAME" /></div>
-							<div class="social">
-								<a href="https://twitter.com/leaverou" class="iconTwitter" target="_blank" arial-label="Twitter NAME_AND_SURNAME"></a>
-							</div>
-						</div>
-						<div class="dataMain">
-							<div class="blockUpper">
-								<h3 class="topic">TOPIC_TITLE</h3>
-								<span class="upper">[En]</span>
-							</div>
-							<div class="description">
-								<p>TOPIC_DESCRIPTION</p>
-							</div>
-							<div class="blockUpper">
-								<h3 class="name">NAME_AND_SURNAME</h3>
-								<span class="upper">[Greece]</span>
-							</div>
-							<div class="info">
-								<p><a href="#" target="_blank">SPEAKER_DESCRIPTION</a></p>
-							</div>
-						</div>
-						<div class="time">12:30</div>
-					</div>
-					<div class="item">
-						<div class="dataAdditional">
-							<div class="photo"><img src="img/speakers/empty.svg" alt="NAME_AND_SURNAME" /></div>
-							<div class="social">
-								<a href="https://twitter.com/leaverou" class="iconTwitter" target="_blank" arial-label="Twitter NAME_AND_SURNAME"></a>
-							</div>
-						</div>
-						<div class="dataMain">
-							<div class="blockUpper">
-								<h3 class="topic">TOPIC_TITLE</h3>
-								<span class="upper">[En]</span>
-							</div>
-							<div class="description">
-								<p>TOPIC_DESCRIPTION</p>
-							</div>
-							<div class="blockUpper">
-								<h3 class="name">NAME_AND_SURNAME</h3>
-								<span class="upper">[Greece]</span>
-							</div>
-							<div class="info">
-								<p><a href="#" target="_blank">SPEAKER_DESCRIPTION</a></p>
-							</div>
-						</div>
-						<div class="time">13:00</div>
-					</div>
-
-					<div class="item alignItemsCenter">
-						<div class="dataAdditional">
-							<div class="photoIcon"><img src="img/other/coffeebreak.svg" alt="Перерва" /></div>
-						</div>
-						<div class="dataMain">
-							<h3 class="topic">Перерва</h3>
-						</div>
-						<div class="time">13:30</div>
-					</div>
-
-					<div class="item">
-						<div class="dataAdditional">
-							<div class="photo"><img src="img/speakers/empty.svg" alt="NAME_AND_SURNAME" /></div>
-							<div class="social">
-								<a href="https://twitter.com/leaverou" class="iconTwitter" target="_blank" arial-label="Twitter NAME_AND_SURNAME"></a>
-							</div>
-						</div>
-						<div class="dataMain">
-							<div class="blockUpper">
-								<h3 class="topic">TOPIC_TITLE</h3>
-								<span class="upper">[En]</span>
-							</div>
-							<div class="description">
-								<p>TOPIC_DESCRIPTION</p>
-							</div>
-							<div class="blockUpper">
-								<h3 class="name">NAME_AND_SURNAME</h3>
-								<span class="upper">[Greece]</span>
-							</div>
-							<div class="info">
-								<p><a href="#" target="_blank">SPEAKER_DESCRIPTION</a></p>
-							</div>
-						</div>
-						<div class="time">14:00</div>
-					</div>
-
-					<div class="item alignItemsCenter">
-						<div class="dataAdditional">
-							<div class="photoIcon"><img src="img/other/coffeebreak.svg" alt="Перерва" /></div>
-						</div>
-						<div class="dataMain">
-							<h3 class="topic">Велика перерва</h3>
-						</div>
-						<div class="time">14:30</div>
-					</div>
-
-					<div class="item">
-						<div class="dataAdditional">
-							<div class="photo"><img src="img/speakers/empty.svg" alt="NAME_AND_SURNAME" /></div>
-							<div class="social">
-								<a href="https://twitter.com/leaverou" class="iconTwitter" target="_blank" arial-label="Twitter NAME_AND_SURNAME"></a>
-							</div>
-						</div>
-						<div class="dataMain">
-							<div class="blockUpper">
-								<h3 class="topic">TOPIC_TITLE</h3>
-								<span class="upper">[En]</span>
-							</div>
-							<div class="description">
-								<p>TOPIC_DESCRIPTION</p>
-							</div>
-							<div class="blockUpper">
-								<h3 class="name">NAME_AND_SURNAME</h3>
-								<span class="upper">[Greece]</span>
-							</div>
-							<div class="info">
-								<p><a href="#" target="_blank">SPEAKER_DESCRIPTION</a></p>
-							</div>
-						</div>
-						<div class="time">16:00</div>
-					</div>
-					<div class="item">
-						<div class="dataAdditional">
-							<div class="photo"><img src="img/speakers/empty.svg" alt="NAME_AND_SURNAME" /></div>
-							<div class="social">
-								<a href="https://twitter.com/leaverou" class="iconTwitter" target="_blank" arial-label="Twitter NAME_AND_SURNAME"></a>
-							</div>
-						</div>
-						<div class="dataMain">
-							<div class="blockUpper">
-								<h3 class="topic">TOPIC_TITLE</h3>
-								<span class="upper">[En]</span>
-							</div>
-							<div class="description">
-								<p>TOPIC_DESCRIPTION</p>
-							</div>
-							<div class="blockUpper">
-								<h3 class="name">NAME_AND_SURNAME</h3>
-								<span class="upper">[Greece]</span>
-							</div>
-							<div class="info">
-								<p><a href="#" target="_blank">SPEAKER_DESCRIPTION</a></p>
-							</div>
-						</div>
-						<div class="time">16:30</div>
-					</div>
-
-					<div class="item alignItemsCenter">
-						<div class="dataAdditional">
-							<div class="photoIcon"><img src="img/other/coffeebreak.svg" alt="Перерва" /></div>
-						</div>
-						<div class="dataMain">
-							<h3 class="topic">Перерва</h3>
-						</div>
-						<div class="time">17:00</div>
-					</div>
-
-					<div class="item">
-						<div class="dataAdditional">
-							<div class="photo"><img src="img/speakers/empty.svg" alt="NAME_AND_SURNAME" /></div>
-							<div class="social">
-								<a href="https://twitter.com/leaverou" class="iconTwitter" target="_blank" arial-label="Twitter NAME_AND_SURNAME"></a>
-							</div>
-						</div>
-						<div class="dataMain">
-							<div class="blockUpper">
-								<h3 class="topic">TOPIC_TITLE</h3>
-								<span class="upper">[En]</span>
-							</div>
-							<div class="description">
-								<p>TOPIC_DESCRIPTION</p>
-							</div>
-							<div class="blockUpper">
-								<h3 class="name">NAME_AND_SURNAME</h3>
-								<span class="upper">[Greece]</span>
-							</div>
-							<div class="info">
-								<p><a href="#" target="_blank">SPEAKER_DESCRIPTION</a></p>
-							</div>
-						</div>
-						<div class="time">17:30</div>
-					</div>
-
-					<div class="item alignItemsCenter">
-						<div class="dataAdditional">
-							<div class="photoIcon"><img src="img/other/finish.svg" alt="Закриття конференції" /></div>
-						</div>
-						<div class="dataMain">
-							<h3 class="topic">Закриття конференції</h3>
-						</div>
-						<div class="time">18:30</div>
-					</div> -->
-
-				</div>
-			</section>
-
-			<!--**************** PARTNERS ****************-->
-			<section class="section sectionPartners" id="partners">
-				<div class="titleSection"><h2 class="overLine">Партнери</h2></div>
-				<div class="contentSection">
-					<div class="txt">Щодо партнерства пишіть на <a href="mailto:nei.css@gmail.com">nei.css@gmail.com</a></div>
-					<!-- <div class="categoryPartners">
-						<div class="titleGold">Генеральний</div>
-						<div class="contentCategoryPartners">
-							<div class="linePartners">
-								<a href="http://www.dev-pro.net/" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'Devpro']);" target="_blank" class="devPro"><img src="img/partners/devpro.png" alt="Devpro - генеральний партнер конференції" /></a>
-							</div>
-						</div>
-					</div>
-					<div class="categoryPartners">
-						<div class="titleSilver">Партнери</div>
-						<div class="contentCategoryPartners">
-							<div class="linePartners">
-								<a href="http://markupus.com" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'Markupus']);" target="_blank" class="markupus"><img src="img/partners/markupus.png" alt="Markupus - партнер конференції" /></a>
-								<a href="https://www.qualium-systems.com/" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'QualiumSystems']);" target="_blank" class="qs"><img src="img/partners/qualiumSystems.svg" alt="Qualium Systems - партнер конференції" />Qualium Systems</a>
-							</div>
-							<div class="linePartners">
-								<a href="https://dataart.ua" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'DataArt']);" target="_blank" class="dataart"><img src="img/partners/dataart.svg" alt="DataArt - партнер конференції" /></a>
-								<a href="https://www.teaminternational.com" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'TeamInternational']);" target="_blank" class="teamInternational"><img src="img/partners/teamInternational.png" alt="TEAM International - партнер конференції" /></a>
-							</div>
-							<div class="linePartners">
-								<a href="https://www.intellias.ua" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'Intellias']);" target="_blank" class="intellias"><img src="img/partners/intellias.svg" alt="Intellias - партнер конференції" /></a>
-								<a href="https://svitla.com" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'Svitla']);" target="_blank" class="svitla"><img src="img/partners/svitla.svg" alt="Svitla - партнер конференції" /></a>
-							</div>
-						</div>
-					</div>
-					<div class="categoryPartners infopartners">
-						<div class="titleSilver">Інфо партнери</div>
-						<div class="contentCategoryPartners">
-							<div class="linePartners">
-								<a href="https://kharkivfrontend.org/" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'KharkivFrontend']);" target="_blank" class="kharkivFrontend"><img src="img/partners/info/KharkivFrontend.png" alt="KharkivFrontend - інфо партнер конференції" /></a>
-								<a href="https://chernivtsi.js.org/" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'ChernivtsiJS']);" target="_blank" class="chernivtsiJS"><img src="img/partners/info/ChernivtsiJS.svg" alt="ChernivtsiJS - інфо партнер конференції" /></a>
-								<a href="https://fwdays.com/event/js-fwdays-2019" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'JSfwdays']);" target="_blank" class="jSfwdays"><img src="img/partners/info/JSfwdays.svg" alt="JSfwdays - інфо партнер конференції" /></a>
-								<a href="https://www.easycode.school/" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'Easycode']);" target="_blank" class="Easycode"><img src="img/partners/info/easycode.svg" alt="Easycode - інфо партнер конференції" /></a>
-							</div>
-							<div class="linePartners">
-								<a href="https://edu.cbsystematics.com/ru?utm_source=infopartner&utm_medium=logo&utm_campaign=promo" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'CBS']);" target="_blank" class="CBS"><img src="img/partners/info/CBS.svg" alt="CBS - інфо партнер конференції" /></a>
-								<a href="https://itvdn.com/ru?utm_source=infopartner&utm_medium=logo&utm_campaign=promo" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'ITVDN']);" target="_blank" class="ITVDN"><img src="img/partners/info/ITVDN.svg" alt="ITVDN - інфо партнер конференції" /></a>
-								<a href="https://syndicode.com/" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'Syndicode']);" target="_blank" class="Syndicode"><img src="img/partners/info/syndicode.png" alt="Syndicode - інфо партнер конференції" /></a>
-							</div>
-							<div class="linePartners">
-									<a href="http://it-family.org/" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'WeeklyIT']);" target="_blank" class="WeeklyIT"><img src="img/partners/info/WeeklyIT.png" alt="WeeklyIT - інфо партнер конференції" /></a>
-									<span onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'Zhytomyr']);" target="_blank" class="Zhytomyr"><img src="img/partners/info/zhytomyr.jpg" alt="BeerJS Житомир - інфо партнер конференції" /></span>
-									<a href="http://odessajs.org/" onClick="_gaq.push(['_trackEvent', 'Btns', 'Partners', 'odessajs']);" target="_blank" class="odessajs"><img src="img/partners/info/odessajs.svg" alt="OdessaJS - інфо партнер конференції" /></a>
-							</div>
-						</div>
-					</div> -->
+					<iframe width="1200" height="676" src="https://www.youtube.com/embed/HaO91wvLft0?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</section>
 
@@ -402,107 +101,27 @@
 						<div class="name">Володимир Макуха</div>
 						<div class="email"><a href="mailto:nei.css@gmail.com">nei.css@gmail.com</a></div>
 					</div>
-					<!-- <div class="item">
-						<div class="photo"><img src="img/speakers/valerieLyalina.jpg" alt="Валерiя Лялiна" /></div>
+					<div class="item">
+						<div class="photo"><img src="img/icon/android-chrome-512x512.png" style="transform: scale(0.6);" alt="KharkivCSS" /></div>
 						<div class="social">
-							<a href="https://www.facebook.com/valeria.lialina" class="iconFacebook" target="_blank" arial-label="Facebook Валерiя Лялiна"></a>
-							<a href="https://www.linkedin.com/in/valeria-lyalina-b5144173" class="iconLinkedin" target="_blank" arial-label="Linkedin Валерiя Лялiна"></a>
+							<a href="http://kharkivcss.org/" class="iconWeb" target="_blank" arial-label="Site KharkivCSS"></a>
+							<a href="https://t.me/KharkivCSS" class="iconTelegram" target="_blank" arial-label="Telegram KharkivCSS"></a>
+							<a href="https://www.facebook.com/KharkivCSS" class="iconFacebook" target="_blank" arial-label="Facebook KharkivCSS"></a>
+							<a href="https://twitter.com//KharkivCSS" class="iconTwitter" target="_blank" arial-label="Twitter KharkivCSS"></a>
+							<a href="https://www.youtube.com/c/KharkivCSSConf" class="iconYoutube" target="_blank" arial-label="Youtube KharkivCSS"></a>
 						</div>
-						<div class="name">Валерiя Лялiна</div>
-						<div class="email"><a href="mailto:hi.valeriia@gmail.com">hi.valeriia@gmail.com</a></div>
-					</div> -->
-				</div>
-			</section>
-
-			<!--**************** SOCIAL ****************-->
-			<section class="section sectionSocial">
-				<div class="titleSection"><h2 class="overLine">Слідкувати та готуватися</h2></div>
-				<div class="contentSection">
-					<a href="https://www.facebook.com/KharkivCSS" onClick="_gaq.push(['_trackEvent', 'Btns', 'Social', 'FB']);" target="_blank"><img src="img/social/facebook.png" alt="Facebook конференції" /></a>
-					<a href="https://www.youtube.com/c/KharkivCSSConf" onClick="_gaq.push(['_trackEvent', 'Btns', 'Social', 'YT']);" target="_blank"><img src="img/social/youtube.png" alt="Youtube конференції" /></a>
-					<a href="https://twitter.com/KharkivCSS" onClick="_gaq.push(['_trackEvent', 'Btns', 'Social', 'TW']);" target="_blank"><img src="img/social/twitter.png" alt="Еwitter конференції" /></a>
-					<a href="https://t.me/KharkivCSS" onClick="_gaq.push(['_trackEvent', 'Btns', 'Social', 'TG']);" target="_blank"><img src="img/social/telegram.png" alt="Telegram конференції" /></a>
-				</div>
-			</section>
-
-			<!--**************** PREV_CONF ****************-->
-			<section class="section sectionPrevConf" id="prevConf">
-				<div class="titleSection"><h2 class="overLine">Як це було</h2></div>
-				<div class="contentSection">
-					<iframe width="1200" height="676" src="https://www.youtube.com/embed/YvxqvWRex6M?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</section>
-
-			<!--**************** LOCATION ****************-->
-			<section class="section sectionLocation" id="location">
-				<div class="titleSection"><h2 class="overLine">Місце</h2></div>
-				<div class="contentSection">
-					<address>Харків, Fabrika.space, вул.&nbsp;Благовіщенська,&nbsp;1</address>
-					<time datetime="2020-04-11">11 Квітня, 2020</time> <br />
-				</div>
-			</section>
-
-			<!--**************** MAP ****************-->
-			<section class="section sectionMap">
-				<div class="mapCanvas"></div>
-			</section>
-
-			<section>
-				<!-- Begin Mailchimp Signup Form -->
-				<link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-				<style type="text/css">
-					#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-					/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-					We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-				</style>
-				<div id="mc_embed_signup">
-				<form action="https://kharkivcss.us7.list-manage.com/subscribe/post?u=38190b4a0a3bc841200780864&amp;id=fe648090d4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-					<div id="mc_embed_signup_scroll">
-					<h2>Subscribe to our mailing list</h2>
-				<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-				<div class="mc-field-group">
-					<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-				</label>
-					<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-				</div>
-				<div class="mc-field-group">
-					<label for="mce-FNAME">First Name </label>
-					<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-				</div>
-				<div class="mc-field-group">
-					<label for="mce-LNAME">Last Name </label>
-					<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-				</div>
-					<div id="mce-responses" class="clear">
-						<div class="response" id="mce-error-response" style="display:none"></div>
-						<div class="response" id="mce-success-response" style="display:none"></div>
-					</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-					<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_38190b4a0a3bc841200780864_fe648090d4" tabindex="-1" value=""></div>
-					<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+						<div class="name">Соц-мережі конференції</div>
 					</div>
-				</form>
 				</div>
-
-				<!--End mc_embed_signup-->
 			</section>
 
 		</div><!-- end #content-->
 	</main><!-- end #main-->
-
+	
 	<footer class="footer">
-		<div class="footMenu">
-			<ul>
-				<li><a href="/2016" onClick="_gaq.push(['_trackEvent', 'Btns', 'FootMenu', '2016']);">2016</a></li>
-				<li><a href="/2017" onClick="_gaq.push(['_trackEvent', 'Btns', 'FootMenu', '2017']);">2017</a></li>
-				<li><a href="/2018" onClick="_gaq.push(['_trackEvent', 'Btns', 'FootMenu', '2018']);">2018</a></li>
-				<li><a href="/2019" onClick="_gaq.push(['_trackEvent', 'Btns', 'FootMenu', '2019']);">2019</a></li>
-				<li><a href="/2020" onClick="_gaq.push(['_trackEvent', 'Btns', 'FootMenu', '2020']);">2020</a></li>
-			</ul>
-		</div>
 		<div class="codeOfConduct">
-			<a href="http://kharkivcss.org/codeofconduct.html" target="_blank">Code of conduct</a>
+			<a href="http://kharkivcss.org/codeofconduct.html" target="_blank">Code Of Conduct</a>
 		</div>
-		
 	</footer>
 </div><!-- end #all-->
 

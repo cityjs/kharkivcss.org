@@ -259,6 +259,7 @@ address {
 	margin: 100px 0 90px 0;
 	background: url('../img/header_x2.jpg') no-repeat center top/1435px auto;
 	line-height: 1;
+	position: relative; /*for count of participant*/
 }
 
 .logo {
@@ -303,6 +304,29 @@ address {
 
 .header .btnRegistration {
 	padding: 0;
+}
+
+.header .countParticipant {
+	position: absolute;
+	left: 70%;
+	top: 0;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 50%;
+	background: rgba(0,135,255, 0.8);
+	padding: 20px;
+	height: 100px;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-weight: 600;
+}
+
+.header .countParticipant span {
+	font-size: 55px;
+	font-weight: 800;
 }
 
 /*****************/
@@ -922,6 +946,15 @@ address {
 	}
 	.logo a {
 		font-size: 48px;
+	}
+	.header .countParticipant {
+		font-size: 11px;
+		width: 50px;
+		height: 50px;
+		padding: 15px;
+	}
+	.header .countParticipant span {
+		font-size: 30px;
 	}
 
 	.descriptionHeader,
