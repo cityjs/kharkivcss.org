@@ -853,6 +853,45 @@ address {
 	padding: 0 20px 20px 20px;
 }
 
+.sectionPartnerInfo .contentSection {
+	max-width: 1000px;
+}
+
+.partnerOptionsItem {
+	display: flex;
+	border-bottom: 1px solid #333;
+	padding: 10px 0;
+}
+
+.partnerOptionsTitle {
+	flex: 1 1 auto;
+	display: flex;
+}
+
+.partnerOptionsTitle .optionNumber {
+	padding-left: 10px;
+	width: 50px;
+	display: inline-block;
+}
+
+.optionDesc {
+	display: block;
+	font-size: 14px;
+}
+
+.partnerOptionsValue {
+	flex: 0 0 150px;
+	text-align: center;
+}
+
+.iconCheck {
+	background: url('../img/other/check.svg') no-repeat center center/ 20px auto;
+}
+
+.iconUncheck {
+	background: url('../img/other/uncheck.svg') no-repeat center center/ 20px auto;
+}
+
 @media screen and (max-width: 1100px) {
 	.mainMenu ul li.btnRegistration {
 		margin: 0;
