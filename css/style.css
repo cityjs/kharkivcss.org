@@ -857,6 +857,14 @@ address {
 	max-width: 1000px;
 }
 
+.sectionPartnerOptions .contentSection {
+	max-width: 1000px;
+}
+
+.partnerOptions {
+	margin-bottom: 30px;
+}
+
 .partnerOptionsItem {
 	display: flex;
 	border-bottom: 1px solid #333;
