@@ -855,10 +855,12 @@ address {
 
 .sectionPartnerInfo .contentSection {
 	max-width: 1000px;
+	padding: 0 10px;
 }
 
 .sectionPartnerOptions .contentSection {
 	max-width: 1000px;
+	padding: 0 10px;
 }
 
 .partnerOptions {
@@ -1094,6 +1096,40 @@ address {
 	}
 	.pageCodeOfConduct .logo a {
 		font-size: 44px;
+	}
+
+	.partnerOptionsTitle {
+		flex: 1 1 100%;
+		display: block;
+		text-align: center;
+		font-weight: bold;
+		padding-bottom: 5px;
+	}
+	.partnerOptionsTitle .optionNumber {
+		display: none;
+	}
+	.partnerOptionsValue {
+		flex: 0 0 44%;
+		margin: 0 3%;
+		text-align: right;
+		background-position: right center;
+	}
+	.partnerOptionsItem {
+		flex-wrap: wrap;
+	}
+	.partnerOptionsItem:first-child {
+		font-weight: bold;
+	}
+	.partnerOptionsItem > div:last-child {
+		text-align: left;
+		background-position: left center;
+	}
+	.iconCheck, .iconUncheck {
+		height: 20px;
+	}
+	.optionDesc {
+		text-align: center;
+		font-size: 13px;
 	}
 }
 
