@@ -1109,20 +1109,13 @@ address {
 		display: none;
 	}
 	.partnerOptionsValue {
-		flex: 0 0 44%;
+		flex: 0 0 27%;
 		margin: 0 3%;
-		text-align: right;
-		background-position: right center;
+		text-align: center;
+		background-position: center center;
 	}
 	.partnerOptionsItem {
 		flex-wrap: wrap;
-	}
-	.partnerOptionsItem:first-child {
-		font-weight: bold;
-	}
-	.partnerOptionsItem > div:last-child {
-		text-align: left;
-		background-position: left center;
 	}
 	.iconCheck, .iconUncheck {
 		height: 20px;
