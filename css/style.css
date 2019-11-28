@@ -1113,6 +1113,7 @@ address {
 		margin: 0 3%;
 		text-align: center;
 		background-position: center center;
+		word-break: break-word;
 	}
 	.partnerOptionsItem {
 		flex-wrap: wrap;
