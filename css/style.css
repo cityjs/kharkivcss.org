@@ -1117,6 +1117,7 @@ address {
 	}
 	.partnerOptionsItem {
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 	.iconCheck, .iconUncheck {
 		height: 20px;
