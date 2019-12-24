@@ -348,7 +348,7 @@ address {
 .titleSection {
 	font-weight: 900;
 	font-size: 60px;
-	color: #fff;
+	color: #ccc;
 	text-align: center;
 	letter-spacing: -2px;
 	position: relative;
@@ -721,7 +721,8 @@ address {
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .svitla img {
-	height: 90px;
+	/*height: 90px;*/
+	height: 115px;
 }
 
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .ITVDN img {
