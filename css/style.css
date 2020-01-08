@@ -864,6 +864,15 @@ address {
 	padding: 0 10px;
 }
 
+.sectionPartnerOptions .contentSection .halls {
+	text-align: center;
+}
+
+.sectionPartnerOptions .contentSection .halls img {
+	box-sizing: border-box;
+	padding: 20px;
+}
+
 .partnerOptions {
 	margin-bottom: 30px;
 }
