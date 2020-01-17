@@ -722,7 +722,11 @@ address {
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .svitla img {
 	/*height: 90px;*/
-	height: 112px;
+	height: 115px;
+}
+
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .beetroot img {
+	height: 160px;
 }
 
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .ITVDN img {
