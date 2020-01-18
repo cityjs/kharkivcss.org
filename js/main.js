@@ -53,3 +53,67 @@ $(window).on('load', function(){
 		item && $('.mainMenu').find('a[href="'+item.id+'"]').parent().addClass('act');
 	});
 });
+
+$(window).on('load', function(){
+	const wrapper = document.querySelector('.timer');
+	const template = `
+		<div class="days">
+			<div class="counter">00</div>
+			<div class="label">днів</div>
+		</div>
+		<div class="separator">:</div>
+		<div class="hours">
+			<div class="counter">00</div>
+			<div class="label">годин</div>
+		</div>
+		<div class="separator">:</div>
+		<div class="minutes">
+			<div class="counter">00</div>
+			<div class="label">хв</div>
+		</div>
+		<div class="separator">:</div>
+		<div class="seconds">
+			<div class="counter">00</div>
+			<div class="label">сек</div>
+		</div>
+	`;
+
+	let daysEl, hoursEl, minutesEl, secondsEl;
+	let countDownDate = new Date('Mar 28, 2020 10:00:00').getTime();
+
+	let timer = setInterval(function() {
+		if (wrapper.innerHTML === '') {
+			wrapper.innerHTML = template;
+			daysEl = document.querySelector('.days .counter');
+			hoursEl = document.querySelector('.hours .counter');
+			minutesEl = document.querySelector('.minutes .counter');
+			secondsEl = document.querySelector('.seconds .counter');
+		}
+		let currentDate = new Date().getTime();
+		let distance = countDownDate - currentDate;
+
+		// Time calculations for days, hours, minutes and seconds
+		let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+		let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+		let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+		// Fix for 0
+		days = days < 10 ? '0' + days : days
+		hours = hours < 10 ? '0' + hours : hours
+		minutes = minutes < 10 ? '0' + minutes : minutes
+		seconds = seconds < 10 ? '0' + seconds : seconds
+
+		// Output calculations
+		daysEl.innerHTML = days
+		hoursEl.innerHTML = hours
+		minutesEl.innerHTML = minutes
+		secondsEl.innerHTML = seconds
+
+		// If the count down is over, write some text 
+		if (distance < 0) {
+			clearInterval(timer)
+			wrapper.remove();
+		}
+	}, 1000)
+});

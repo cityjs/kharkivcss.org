@@ -181,6 +181,7 @@ address {
 	cursor: pointer;
 	display: inline-block;
 	transition: background .15s linear;
+	margin-top: 10px;
 }
 
 .btnRegistration a:hover {
@@ -230,7 +231,7 @@ address {
 
 .mainMenu ul li:not(.btnRegistration) a {
 	position: relative;
-	height: 86px;
+	height: 76px;
 	line-height: 86px;
 	display: block;
 	padding: 0 35px;
@@ -263,7 +264,8 @@ address {
 }
 
 .logo {
-	padding: 240px 0 35px 0;
+	/* padding: 240px 0 35px 0; */
+	padding: 240px 0 0 0;
 	display: flex;
 	justify-content: center;
 	text-align: center;
@@ -295,7 +297,8 @@ address {
 	margin: 0 auto;
 	text-align: center;
 	font-weight: 900;
-	font-size: 30px;
+	/* font-size: 30px; */
+	font-size: 70px;
 	color: #fff;
 	letter-spacing: -0.25px;
 	line-height: 1.3;
@@ -1018,11 +1021,11 @@ address {
 	}
 
 	.header {
-		margin: 85px 0 0 0;
+		margin: 105px 0 0 0;
 		background-size: 470px auto;
 	}
 	.logo {
-		padding: 75px 0 100px 0;
+		padding: 75px 0 0 0;
 	}
 	.logo a {
 		font-size: 48px;
@@ -1037,10 +1040,15 @@ address {
 		font-size: 30px;
 	}
 
-	.descriptionHeader,
-	.locationHeader {
+	.descriptionHeader {
 		font-size: 15px;
 		padding-bottom: 20px;
+		max-width: 420px;
+		
+	}
+	.locationHeader {
+		font-size: 35px;
+		padding-bottom: 50px;
 		max-width: 420px;
 	}
 	.descriptionHeader br,
@@ -1165,3 +1173,42 @@ address {
 	max-width: 400px;
 	margin: 0 auto;
 }
+
+/******* START TIMER *****/
+.timer {
+	position: fixed;
+	left: 0;
+	top: 76px;
+	width: 100%;
+	background: rgba(35,35,35, 0.95);
+	z-index: 3;
+	display: flex;
+	justify-content: center;
+	font-size: 20px;
+	color: #fff;
+	padding-bottom: 7px;
+}
+
+.timer .separator {
+	width: 16px;
+	text-align: center;
+}
+
+.timer .days,
+.timer .hours,
+.timer .minutes,
+.timer .seconds {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 900;
+	text-shadow: 0px 48px 96px rgba(0,0,0,0.3);
+	display: flex;
+	align-items: flex-end;
+}
+
+.timer .label {
+	font-size: 10px;
+	font-weight: 300;
+	opacity: 0.8;
+	padding: 0 0 3px 3px;
+}
+/******* END TIMER *****/
