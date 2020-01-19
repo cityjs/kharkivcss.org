@@ -79,7 +79,7 @@ $(window).on('load', function(){
 	`;
 
 	let daysEl, hoursEl, minutesEl, secondsEl;
-	let countDownDate = new Date('Mar 28, 2020 10:00:00').getTime();
+	let countDownDate = new Date('Mar 21, 2020 10:00:00').getTime();
 
 	let timer = setInterval(function() {
 		if (wrapper.innerHTML === '') {
