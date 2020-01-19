@@ -56,6 +56,7 @@ $(window).on('load', function(){
 
 $(window).on('load', function(){
 	const wrapper = document.querySelector('.timer');
+	if(!wrapper) return;
 	const template = `
 		<div class="days">
 			<div class="counter">00</div>
