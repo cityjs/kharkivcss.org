@@ -895,7 +895,7 @@ address {
 .sectionPartnerOptions .contentSection .halls img {
 	box-sizing: border-box;
 	padding: 20px;
-	max-width: 500px;
+	max-width: 490px;
 }
 
 .partnerOptions {
@@ -1165,6 +1165,9 @@ address {
 	.optionDesc {
 		text-align: center;
 		font-size: 13px;
+	}
+	.sectionPartnerOptions .contentSection .halls img {
+		max-width: 100%;
 	}
 }
 
