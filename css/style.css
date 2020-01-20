@@ -690,7 +690,7 @@ address {
 
 /****** START PARTNERS ******/
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .devPro img {
-	width: 550px;
+	width: 540px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .markupus img {
@@ -725,11 +725,19 @@ address {
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .svitla img {
 	/*height: 90px;*/
-	height: 115px;
+	height: 105px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .CodeIT img {
-	height: 90px;
+	height: 86px;
+}
+
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .Namecheap img {
+	height: 120px;
+}
+
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .ZONE3000 img {
+	height: 120px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .beetroot img {
