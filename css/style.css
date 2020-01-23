@@ -686,7 +686,7 @@ address {
 
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners a img,
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners span img {
-	height: 130px;
+	height: 75px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners a:hover {
@@ -793,12 +793,16 @@ address {
 	height: 55px;
 }
 
-.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .Sigma img {
-	height: 75px;
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .kharkivFrontend img {
+	height: 120px;
 }
 
-.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .uaSpectr img {
-	height: 75px;
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .jSfwdays img {
+	height: 120px;
+}
+
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .chernivtsiJS img {
+	height: 120px;
 }
 
 
