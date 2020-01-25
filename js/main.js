@@ -58,6 +58,11 @@ $(window).on('load', function(){
 	const wrapper = document.querySelector('.timer');
 	if(!wrapper) return;
 	const template = `
+		<div class="months">
+			<div class="counter">00</div>
+			<div class="label">місяць</div>
+		</div>
+		<div class="separator">:</div>
 		<div class="days">
 			<div class="counter">00</div>
 			<div class="label">днів</div>
@@ -79,12 +84,14 @@ $(window).on('load', function(){
 		</div>
 	`;
 
-	let daysEl, hoursEl, minutesEl, secondsEl;
+	let daysEl, hoursEl, minutesEl, secondsEl, monthsEl;
 	let countDownDate = new Date('Mar 21, 2020 10:00:00').getTime();
 
 	let timer = setInterval(function() {
 		if (wrapper.innerHTML === '') {
 			wrapper.innerHTML = template;
+			monthsEl = document.querySelector('.months .counter');
+			daysEl = document.querySelector('.days .counter');
 			daysEl = document.querySelector('.days .counter');
 			hoursEl = document.querySelector('.hours .counter');
 			minutesEl = document.querySelector('.minutes .counter');
@@ -94,22 +101,25 @@ $(window).on('load', function(){
 		let distance = countDownDate - currentDate;
 
 		// Time calculations for days, hours, minutes and seconds
-		let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+		let months = Math.floor(distance / (1000 * 60 * 60 * 24 * 30));
+		let days = Math.floor((distance % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24));
 		let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 		let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 		let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 		// Fix for 0
-		days = days < 10 ? '0' + days : days
-		hours = hours < 10 ? '0' + hours : hours
-		minutes = minutes < 10 ? '0' + minutes : minutes
-		seconds = seconds < 10 ? '0' + seconds : seconds
+		months = months < 10 ? '0' + months : months;
+		days = days < 10 ? '0' + days : days;
+		hours = hours < 10 ? '0' + hours : hours;
+		minutes = minutes < 10 ? '0' + minutes : minutes;
+		seconds = seconds < 10 ? '0' + seconds : seconds;
 
 		// Output calculations
-		daysEl.innerHTML = days
-		hoursEl.innerHTML = hours
-		minutesEl.innerHTML = minutes
-		secondsEl.innerHTML = seconds
+		monthsEl.innerHTML = months;
+		daysEl.innerHTML = days;
+		hoursEl.innerHTML = hours;
+		minutesEl.innerHTML = minutes;
+		secondsEl.innerHTML = seconds;
 
 		// If the count down is over, write some text 
 		if (distance < 0) {
