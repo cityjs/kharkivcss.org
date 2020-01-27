@@ -159,6 +159,10 @@ address {
 	padding: 0 4px;
 }
 
+.paddingBottom0 {
+	padding-bottom: 20px !important;
+}
+
 /*
 <div class="btnRegistration"><a href="http://kharkivcss4.2event.com/" onClick="_gaq.push(['_trackEvent', 'Btns', 'Buy', 'Header']);" target="_blank">Купити квиток</a></div>
 */
@@ -696,7 +700,7 @@ address {
 
 /****** START PARTNERS ******/
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .devPro img {
-	width: 510px;
+	width: 570px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .markupus img {
@@ -738,12 +742,8 @@ address {
 	height: 86px;
 }
 
-.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .Namecheap img {
-	height: 120px;
-}
-
-.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .ZONE3000 img {
-	height: 120px;
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .NcZ3k img {
+	height: 360px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .beetroot img {
