@@ -690,7 +690,7 @@ address {
 
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners a img,
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners span img {
-	height: 75px;
+	height: 45px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners a:hover {
@@ -700,7 +700,7 @@ address {
 
 /****** START PARTNERS ******/
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .devPro img {
-	width: 570px;
+	width: 590px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .markupus img {
@@ -750,21 +750,6 @@ address {
 	height: 160px;
 }
 
-.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .ITVDN img {
-	height: 150px;
-}
-.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .WeeklyIT img {
-	height: 90px;
-}
-
-.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .CBS img {
-	height: 60px;
-}
-
-.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .Syndicode img {
-	height: 55px;
-}
-
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .Easycode img {
 	height: 105px;
 }
@@ -773,40 +758,60 @@ address {
 	height: 95px;
 }
 
-.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .odessajs img {
+
+
+
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .kharkivFrontend img {
 	height: 90px;
 }
 
-.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .LvivCSS img {
-	height: 48px;
-}
-
-.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .GlobalCSS img {
-	height: 37px;
-}
-
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .DOU img {
-	height: 70px;
-}
-
-.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .Daxx img {
-	height: 55px;
-}
-
-.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .kharkivFrontend img {
-	height: 120px;
+	height: 45px;
 }
 
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .jSfwdays img {
-	height: 120px;
+	height: 90px;
 }
 
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .chernivtsiJS img {
-	height: 120px;
+	height: 80px;
+}
+
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .LvivCSS img {
+	height: 30px;
+}
+
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .GlobalCSS img {
+	height: 27px;
+}
+
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .WeeklyIT img {
+	height: 60px;
+}
+
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .ITVDN img {
+	height: 150px;
+	margin: -30px 0;
+}
+
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .CBS img {
+	height: 40px;
+}
+
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .Daxx img {
+	height: 38px;
+}
+
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .odessajs img {
+	height: 50px;
 }
 
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .dataart img {
-	height: 55px;
+	height: 32px;
+}
+
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .Syndicode img {
+	height: 40px;
 }
 
 
