@@ -746,6 +746,10 @@ address {
 	height: 360px;
 }
 
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .coingaming img {
+	height: 320px;
+}
+
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .beetroot img {
 	height: 160px;
 }
@@ -825,6 +829,7 @@ address {
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .dataforsell img {
 	height: 35px;
 }
+
 
 
 
