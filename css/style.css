@@ -739,7 +739,11 @@ address {
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .CodeIT img {
-	width: 407px;
+	width: 350px;
+}
+
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .SSAGroup img {
+	width: 330px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .dataart img {
