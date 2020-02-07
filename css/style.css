@@ -650,6 +650,7 @@ address {
 
 .sectionPartners .contentSection {
 	padding: 0 0 60px 0;
+	max-width: 820px;
 }
 
 .sectionPartners .contentSection .categoryPartners {
@@ -680,6 +681,7 @@ address {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners a,
@@ -720,6 +722,26 @@ address {
 	margin-right: 20px;
 }
 
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .NcZ3k img {
+	width: 765px;
+}
+
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .coingaming img {
+	width: 410px;
+}
+
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .svitla img {
+	width: 315px;
+}
+
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .beetroot img {
+	width: 384px;
+}
+
+.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .CodeIT img {
+	width: 407px;
+}
+
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .dataart img {
 	height: 63px;
 }
@@ -731,27 +753,6 @@ address {
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners .intellias img {
 	height: 60px;
 	padding: 40px 0;
-}
-
-.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .svitla img {
-	/*height: 90px;*/
-	height: 105px;
-}
-
-.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .CodeIT img {
-	height: 86px;
-}
-
-.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .NcZ3k img {
-	height: 360px;
-}
-
-.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .coingaming img {
-	height: 320px;
-}
-
-.sectionPartners .contentSection .categoryPartners .contentCategoryPartners .beetroot img {
-	height: 160px;
 }
 
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .Easycode img {
@@ -1024,10 +1025,10 @@ address {
 	}
 
 	.linePartners {
-		flex-direction: column;
+		
 	}
 	.sectionPartners .contentSection .categoryPartners .contentCategoryPartners a {
-		width: auto;
+		
 	}
 
 	.sectionSpeakers .item {
