@@ -791,11 +791,11 @@ address {
 }
 
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .GlobalCSS img {
-	height: 27px;
+	height: 24px;
 }
 
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .WeeklyIT img {
-	height: 60px;
+	height: 55px;
 }
 
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .ITVDN img {
@@ -837,6 +837,10 @@ address {
 
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .codica img {
 	height: 70px;
+}
+
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .Kottans img {
+	height: 65px;
 }
 
 
