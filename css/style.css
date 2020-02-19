@@ -692,7 +692,7 @@ address {
 
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners a img,
 .sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners span img {
-	height: 45px;
+	height: 40px;
 }
 
 .sectionPartners .contentSection .categoryPartners .contentCategoryPartners a:hover {
@@ -843,6 +843,9 @@ address {
 	height: 65px;
 }
 
+.sectionPartners .contentSection .categoryPartners.infopartners .contentCategoryPartners .epam img {
+	height: 55px;
+}
 
 
 
