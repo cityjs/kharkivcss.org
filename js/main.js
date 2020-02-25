@@ -62,12 +62,12 @@ $(window).on('load', function(){
 			<div class="counter">00</div>
 			<div class="label">місяць</div>
 		</div>
-		<div class="separator">:</div>
+		<div class="separator"></div>
 		<div class="days">
 			<div class="counter">00</div>
 			<div class="label">днів</div>
 		</div>
-		<div class="separator">:</div>
+		<div class="separator"></div>
 		<div class="hours">
 			<div class="counter">00</div>
 			<div class="label">годин</div>

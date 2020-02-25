@@ -1269,6 +1269,8 @@ address {
 .timer .separator {
 	width: 16px;
 	text-align: center;
+	align-self: flex-end;
+	width: 7px;
 }
 
 .timer .months,
@@ -1290,6 +1292,9 @@ address {
 .timer .hours + .separator,
 .timer .minutes + .separator {
 	opacity: 0.5;
+	font-size: 13px;
+	position: relative;
+	top: -2px;
 }
 
 .timer .label {
