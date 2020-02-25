@@ -1303,4 +1303,9 @@ address {
 	opacity: 0.8;
 	padding: 0 0 3px 3px;
 }
+.timer .hours .label,
+.timer .minutes .label,
+.timer .seconds .label {
+	padding-bottom: 1px;
+}
 /******* END TIMER *****/

@@ -60,7 +60,7 @@ $(window).on('load', function(){
 	const template = `
 		<div class="months">
 			<div class="counter">00</div>
-			<div class="label">місяць</div>
+			<div class="label">місяців</div>
 		</div>
 		<div class="separator"></div>
 		<div class="days">
@@ -72,12 +72,12 @@ $(window).on('load', function(){
 			<div class="counter">00</div>
 			<div class="label">годин</div>
 		</div>
-		<div class="separator">:</div>
+		<div class="separator"></div>
 		<div class="minutes">
 			<div class="counter">00</div>
 			<div class="label">хв</div>
 		</div>
-		<div class="separator">:</div>
+		<div class="separator"></div>
 		<div class="seconds">
 			<div class="counter">00</div>
 			<div class="label">сек</div>
