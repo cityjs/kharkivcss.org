@@ -961,11 +961,11 @@ address {
 	padding: 0 10px;
 }
 
-.sectionPartnerOptions .contentSection .halls {
+.halls {
 	text-align: center;
 }
 
-.sectionPartnerOptions .contentSection .halls img {
+.halls img {
 	box-sizing: border-box;
 	padding: 20px;
 	max-width: 490px;
