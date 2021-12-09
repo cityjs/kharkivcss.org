@@ -111,7 +111,17 @@
 			<li><a href="#location" onClick="_gaq.push(['_trackEvent', 'Btns', 'FixedMenu', 'FMLocation']);">Місце</a></li>
 		</ul>
 	</nav>
+	<script>
+	(async function() {
+		console.log(11111);
+		function delay(ms) {
+		  return new Promise(resolve => setTimeout(resolve, ms));
+		}
 
+		await delay(10000)
+		console.log(222222);
+	})()
+	</script>
 	<!--****************HEADER****************-->
 	<header class="header" importance="high">
 		<div class="timer"></div>
