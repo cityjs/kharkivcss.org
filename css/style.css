@@ -36,7 +36,7 @@ input[type="submit"]::-moz-focus-inner {border: none;}
 html, body{height:100%; width:100%; margin:0; padding:0;}
 
 body {
-	font-family: 'lato', Arial, sans-serif;
+	font-family: 'lato', serif;
 	font-weight: 300;
 	font-size: 20px;
 	color: #ddd;
